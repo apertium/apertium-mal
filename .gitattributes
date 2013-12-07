@@ -2,5 +2,9 @@
 /Makefile -text
 /apertium-mal.mal.lexc -text
 /apertium-mal.mal.twol -text
+dev/fifth.txt -text
+dev/first.txt -text
+dev/fourth.txt -text
 dev/malayalam_freq_list.txt -text
 dev/second.txt -text
+dev/third.txt -text
