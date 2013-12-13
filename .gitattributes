@@ -5,6 +5,9 @@
 dev/fifth.txt -text
 dev/first.txt -text
 dev/fourth.txt -text
+dev/gci/task1/note1 -text
+dev/gci/task1/note1.txt -text
+dev/gci/task1/sidharth.txt -text
 dev/malayalam_freq_list.txt -text
 dev/second.txt -text
 dev/third.txt -text
