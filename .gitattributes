@@ -13,8 +13,6 @@
 /apertium-mal.post-mal.dix -text
 /autogen.sh -text
 /configure.ac -text
-dev/adj_list.txt -text svneol=unset#application/octet-stream
-dev/adv_list.txt -text svneol=unset#application/octet-stream
 dev/fifth.txt -text
 dev/first.txt -text
 dev/fourth.txt -text
@@ -31,8 +29,5 @@ dev/gci/task7/pos_subin.txt -text
 dev/malayalam_freq_list.txt -text
 dev/second.txt -text
 dev/third.txt -text
-dev/unknown.txt -text
-dev/verb_list -text svneol=unset#application/octet-stream
-dev/wordlist.txt -text
 /modes.xml -text svneol=unset#application/xml
 tests/clitics.yaml -text
