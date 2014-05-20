@@ -13,6 +13,7 @@
 /apertium-mal.post-mal.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/countstems.sh -text
 dev/fifth.txt -text
 dev/first.txt -text
 dev/fourth.txt -text
