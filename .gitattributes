@@ -29,6 +29,9 @@ dev/gci/task6/lemma_akhil.txt -text
 dev/gci/task7/notes.txt -text
 dev/gci/task7/pos_subin.txt -text
 dev/malayalam_freq_list.txt -text
+dev/redux/Makefile -text
+dev/redux/apertium-mal.mal.lexc -text
+dev/redux/apertium-mal.mal.twol -text
 dev/second.txt -text
 dev/spellrelax.twol -text
 dev/third.txt -text
