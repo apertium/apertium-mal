@@ -32,6 +32,7 @@ dev/malayalam_freq_list.txt -text
 dev/redux/Makefile -text
 dev/redux/apertium-mal.mal.lexc -text
 dev/redux/apertium-mal.mal.twol -text
+dev/redux/test-cases.txt -text
 dev/redux/test-sentences.txt -text svneol=unset#application/octet-stream
 dev/sandhi_doc -text
 dev/second.txt -text
