@@ -1,7 +1,5 @@
 prefix=@prefix@
 exec_prefix=${prefix}
-libdir=@libdir@
-dir=@libdir@/apertium/apertium-mal
 srcdir=@datarootdir@/apertium/apertium-mal
 
 Name: apertium-mal
