@@ -59,13 +59,13 @@ Multichar_Symbols
 %<gpr_pres%>    ! 
 %<gpr_past%>    !
 
-%<nom%>         ! Nominative                  !
-%<acc%>         ! Accusative                  !
-%<dat%>         ! Dative                      !
-%<soc%>         ! Sociative                   !
-%<gen%>         ! Genitive                    !
-%<ins%>         ! Instrumental                !
-%<loc%>         ! Locative                    !
+%<nom%>         ! Nominative                  ! സംബോധന
+%<acc%>         ! Accusative                  ! പ്രതിഗ്രാഹിക
+%<dat%>         ! Dative                      ! ഉദ്ദേശിക
+%<soc%>         ! Sociative                   ! സംയോജിക
+%<gen%>         ! Genitive                    ! സംബന്ധിക
+%<ins%>         ! Instrumental                ! പ്രായോജിക
+%<loc%>         ! Locative                    ! ആധാരിക
 %<voc%>         ! Vocative                    !
 
 %<ant%>         ! Anthroponym                 !
