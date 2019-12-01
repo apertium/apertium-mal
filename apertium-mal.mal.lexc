@@ -3767,13 +3767,15 @@ LEXICON NominalStems
 സര്‍വ്വകലാശാല:സര്‍വ്വകലാശാല N2 ; ! "" ! "university"
 സര്‍വകലാശാല:സര്‍വകലാശാല N2 ; ! "' ! "university" ! "debug"
 ശേഷം:ശേഷ N1 ; ! "śēṣaṁ" ! "sequel, rest, fragment, following"
-റേഡിയം:റേഡിയ N1; ! "radium"
+റേഡിയം:റേഡിയ N1 ; ! "" ! "radium"
+ലോഹം:ലോഹ N1 ; ! "" ! "metal"
+ആല്‍ക്കലൈന്‍%എര്‍ത്ത്%ലോഹം:ആല്‍ക്കലൈന്‍%എര്‍ത്ത്%ലോഹ N1 ; ! "" ! "alkaline earth metal"
 ചരിത്രം:ചരിത്ര N1 ; ! "caritraṁ" ! "story, record, history, chronology, chronicle"
 ചിത്രം:ചിത്ര N1 ; ! "citraṁ" ! "scene, poster, picture, painting, drawing"
 ജനനം:ജനന N1 ; ! "jananaṁ" ! "procreation, origin, nativity, genesis, birth, appearance"
 സംവിധാനം:സംവിധാന N1 ; ! "sanvidhānaṁ" ! "texture, plan, method, direction, convenience, composition"
 മൂലം:മൂല N1 ; ! "mūlaṁ" ! "tuber, text, spark, radical, parent, original, origin, cause, beginning"
-ഏകദേശം:ഏകദേശ N1 ; ! "ēkadēśaṁ" ! "flat"
+ഏകദേശം:ഏകദേശ N1 ; ! "ēkadēśaṁ" ! "approximately"
 കാരണം:കാരണ N1 ; ! "kāraṇaṁ" ! "subject, sake, root, reason, origin, occasion, medium, ground, deed, cause, causality"
 ക്ഷേത്രം:ക്ഷേത്ര N1 ; ! "kṣētraṁ" ! "temple, pagoda, area"
 പ്രകാരം:പ്രകാര N1 ; ! "prakāraṁ" ! "type, stamp, sort, respect, rate, rampart, quality, mood, manner, fence"
@@ -5279,6 +5281,8 @@ LEXICON NominalStems
 അവ്യയം:അവ്യയ N1 ; ! "avyayaṁ" ! "conjunction, conjugation"
 അനിഷ്ടം:അനിഷ്ട N1 ; ! "aniṣṭaṁ" ! "antipathy"
 അനിശ്ചിതത്വം:അനിശ്ചിതത്വ N1 ; ! "aniścitatvaṁ" ! "uncertainty, skepticism, flexibility"
+അണുപ്രസരം:അണുപ്രസര N1 ; ! "" ! "radioactive"
+ശോഷണം:ശോഷണ N1 ; ! "" ! "decay"
 താത്പര്യം:താത്പര്യ N1;
 കോശം:കോശ N1;
 പഴക്കം:പഴക്ക N1;
@@ -18492,7 +18496,6 @@ LEXICON NominalStems
 ആല്‍ക്കലൈന്‍% എര്‍ത്ത്:ആല്‍ക്കലൈന്‍% എര്‍ത്ത N3; ! "" ! "alcaline earth"
 അര്‍ദ്ധായുസ്:അര്‍ദ്ധായുസ N3 ; ! "" ! "half life"
 മാസ്:മാസ N3 ; ! "" ! "mass"
-ഐസോട്ടോപ്പ്:ഐസോട്ടോപ്പ N3 ; ! "isotop"
 എഴുന്നള്ളത്ത്:എഴുന്നള്ളത്ത N3 ; ! "eḻunnaḷḷatt" ! "procession"
 സത്ത്:സത്ത N3 ; ! "satt" ! "juice"
 തമിഴ്:തമിഴ N3; ! "" ! "thamizh"
@@ -18549,6 +18552,8 @@ LEXICON NominalStems
 ഷെഡ്:ഷെഡ N3 ; ! "ṣeḍ" ! "hut"
 യോജിപ്പ്:യോജിപ്പ N3 ; ! "yēājipp" ! "accord"
 ബ്ലേഡ്:ബ്ലേഡ N3 ; ! "blēḍ" ! "blade"
+ഐസോട്ടോപ്പ്:ഐസോട്ടോപ്പ N3 ; ! "" ! "isotope"
+റഡോണ്‍:റഡോണ N3 ; ! "" ! "radon"
 പാര്‍ലമെന്റ്:പാര്‍ലമെന്റ  N3;
 റിലീസ്:റിലീസ  N3;
 റിസര്‍ച്ച്:റിസര്‍ച്ച  N3;
@@ -19171,8 +19176,9 @@ LEXICON NominalStems
 നദി:നദി N2 ; ! "nadi" ! "river"
 ശക്തി:ശക്തി N2 ; ! "śakti" ! "vigour, sword, strength, steam, power, hand, force, ability"
 സെക്രട്ടറി:സെക്രട്ടറി N2 ; ! "sekraṭṭaṟi" ! "secretary"
-മെര്‍ക്കുറി:മെര്‍ക്കുറി N2 ; ! " " ! "mercury'
-
+മെര്‍ക്കുറി:മെര്‍ക്കുറി N2 ; ! " " ! "mercury"
+അണുസംഖ്യ:അണുസംഖ്യ N2 ; ! " " ! "atomic number"
+ആവര്‍ത്തനപ്പട്ടിക:ആവര്‍ത്തനപ്പട്ടിക N2 ; ! " " ! "periodic table"
 അറബി:അറബി N2 ; ! "aṟabi" ! "arabic, arab"
 പദവി:പദവി N2 ; ! "padavi" ! "title, tire, status, station, state, sphere, situation, seat, position, place, order, hat, grade, embassy, designation, consequence, capacity, appointment"
 ഭൂമി:ഭൂമി N2 ; ! "bhūmi" ! "world, soil, land, earth, cradle, country"
@@ -19742,7 +19748,6 @@ LEXICON NominalStems
 ശ്രദ്ധ:ശ്രദ്ധ N2 ; ! "śrad'dha" ! "zeal, watch, trust, remark, regard, notice, note, fidelity, faith, eye, devotion, care, bend, belief, attention, application"
 രൂപ:രൂപ N2 ; ! "rūpa" ! "rupee, note"
 പട്ടിക:പട്ടിക N2 ; ! "paṭṭika" ! "table, slip, schedule, panel, menu, listing, list, index"
-സ:സ N2 ; ! "sa" ! "athletics"
 താപനില:താപനില N2 ; ! "tāpanila" ! "temperature"
 രചന:രചന N2 ; ! "racana" ! "writing, texture, design, creation, construction, composition, arrangement"
 ശിക്ഷ:ശിക്ഷ N2 ; ! "śikṣa" ! "sword, sentence, scourge, rod, reward, punishment, penalty, pain, doom, correction"
@@ -25410,7 +25415,7 @@ LEXICON Adjectives
 ഊഷ്മളം:ഊഷ്മള A3 ; ! "FIXME" ! "warm"
 വിത്യസ്തം:വിത്യസ്ത A3 ; ! "FIXME" ! "warm"
 തുല്യം:തുല്യ A3 ; ! "" ! "equal"
-ശുദ്ധം:ശുദ്ധ A3 ; ! "" ! ""
+ശുദ്ധം:ശുദ്ധ A3 ; ! "" ! "pure"
 സ്വതന്ത്രം:സ്വതന്ത്ര A3 ; ! "" ! "free'
 ഏകം:ഏക A3; ! "" ! "only"
 അപൂര്‍വം:അപൂര്‍വ A3 ; ! "" ! "rare'
@@ -25448,6 +25453,8 @@ LEXICON Adverbs
 ഏറ്റവും:ഏറ്റവും PREADV ; ! "ēṟṟavuṁ" ! "most"
 കൂടുതല്‍:കൂടുതല്‍ PREADV ; ! "" ! "more"
 
+സാധാരണനിലയിൽ:സാധാരണനിലയിൽ PREADV ; ! "" ! "typically"
+
 കൂടുതല്‍:കൂടുതല്‍ ADV ; ! "" ! "more"
 
 അവിടെ:അവിടെ ADV3 ; ! "FIXME" ! "there"
@@ -25463,7 +25470,7 @@ LEXICON Adverbs
 എപ്പോഴും:എപ്പോഴും ADV ; ! "FIXME" ! "always"
 എന്നും:എന്നും ADV ; ! "" ! "always"
 വ്യക്തമായി:വ്യക്തമായി ADV ; ! "FIXME" ! "clearly"
-
+	
 ഒരുമിച്ച്:ഒരുമിച്ച് ADV2 ; ! "FIXME" ! "together"
 പിന്നെ:പിന്നെ ADV2 ; ! "FIXME" ! "then"
 അതുകൊണ്ട്:അതുകൊണ്ട് ADV2 ; ! "FIXME" ! "so"
@@ -25471,7 +25478,7 @@ LEXICON Adverbs
 തന്നെ:തന്നെ ADV ; ! "FIXME" ! "definitely"
 കൂടി:കൂടി ADV ; ! "FIXME" ! "too"
 പുറത്ത്:പുറത്ത് ADV ; ! "FIXME" ! "outside"
-
+ക്രമേണ:ക്രമേണ ; ! "" ! "gradually"
 
 എല്ലായിടത്തും:എല്ലായിടത്തും ADV4 ; ! "FIXME" ! "everywhere"
 തീര്‍ച്ചയായും:തീര്‍ച്ചയായും ADV4 ; ! "FIXME" ! "definitly"
