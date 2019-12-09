@@ -5283,6 +5283,7 @@ LEXICON NominalStems
 അനിശ്ചിതത്വം:അനിശ്ചിതത്വ N1 ; ! "aniścitatvaṁ" ! "uncertainty, skepticism, flexibility"
 അണുപ്രസരം:അണുപ്രസര N1 ; ! "" ! "radioactive"
 ശോഷണം:ശോഷണ N1 ; ! "" ! "decay"
+അർത്ഥം:അർത്ഥ N1 ; ! "" ! "meaning"
 താത്പര്യം:താത്പര്യ N1;
 കോശം:കോശ N1;
 പഴക്കം:പഴക്ക N1;
@@ -24808,9 +24809,11 @@ LEXICON ProperNouns
 രാജീവ്:രാജീവ NP1 ; ! "" ! "rajeev"
 മുഹമ്മദ്:മുഹമ്മദ NP1 ; ! "" ! "muhammed"
 മേരി:മേരി NP2 ; ! "mēri" ! "Mary"
-ക്യൂറി:ക്യൂറി NP2 ; ! "cury"
+ക്യൂറി:ക്യൂറി NP2 ; ! "cury" ! "Curie"
+പിയറി:പിയറി NP2 ; ! "" ! "Pierre"
 രാജു:രാജ NP3 ; ! "rāju" ! "Raju"
 രാധ:രാധ NP2 ; ! "rādha" ! "Radha"
+ലാറ്റിൻ:ലാറ്റിന NP1 ; ! "Latin" ! "Latin"
 
 ജോണ്‍:ജോണ NP5; ! ""
 ഖാന്‍:ഖാന NP5; ! ""
@@ -25457,6 +25460,7 @@ LEXICON Adverbs
 
 കൂടുതല്‍:കൂടുതല്‍ ADV ; ! "" ! "more"
 
+
 അവിടെ:അവിടെ ADV3 ; ! "FIXME" ! "there"
 ഇവിടെ:ഇവിടെ ADV3 ; ! "FIXME" ! "there"
 പുറത്തേ:പുറത്തേ ADV3 ; ! "FIXME" ! "outside"
@@ -25470,7 +25474,8 @@ LEXICON Adverbs
 എപ്പോഴും:എപ്പോഴും ADV ; ! "FIXME" ! "always"
 എന്നും:എന്നും ADV ; ! "" ! "always"
 വ്യക്തമായി:വ്യക്തമായി ADV ; ! "FIXME" ! "clearly"
-	
+എന്ന്:എന്ന ADV ; ! "" ! "which"
+
 ഒരുമിച്ച്:ഒരുമിച്ച് ADV2 ; ! "FIXME" ! "together"
 പിന്നെ:പിന്നെ ADV2 ; ! "FIXME" ! "then"
 അതുകൊണ്ട്:അതുകൊണ്ട് ADV2 ; ! "FIXME" ! "so"
