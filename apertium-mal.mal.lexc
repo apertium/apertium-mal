@@ -4,17 +4,17 @@ Multichar_Symbols
 
 %<n%>           ! Noun                        ! നാമം
 %<v%>           ! Verb                        !
-%<np%>          ! Proper noun                 ! 
+%<np%>          ! Proper noun                 !
 %<prn%>         ! Pronoun                     !
-%<det%>         ! Determiner                  ! 
-%<preadv%>      ! Preadverbial                ! 
-%<adj%>         ! Adjective                   ! 
+%<det%>         ! Determiner                  !
+%<preadv%>      ! Preadverbial                !
+%<adj%>         ! Adjective                   !
 %<adv%>         ! Adverb                      !
 %<num%>         ! Numeral                     !
 %<cnjcoo%>      ! Coordinating conjunction    !
-%<cnjadv%>      ! Adverbial conjunction       ! 
-%<post%>        ! Postposition                ! 
-%<spost%>       ! Separable postposition      ! 
+%<cnjadv%>      ! Adverbial conjunction       !
+%<post%>        ! Postposition                !
+%<spost%>       ! Separable postposition      !
 %<vbcop%>       ! Copula                      !
 %<qst%>         ! Question word               !
 
@@ -24,39 +24,39 @@ Multichar_Symbols
 %<subst%>       ! Substantive                 !
 %<attr%>        ! Attributive                 !
 
-%<iv%>          ! Intransitive                ! 
-%<tv%>          ! Transitive                  ! 
+%<iv%>          ! Intransitive                !
+%<tv%>          ! Transitive                  !
 
 %<neg%>         ! Negative                    !
 
-%<pres%>        ! Present tense               ! വര്‍ത്ത്മാന കാലം 
-%<past%>        ! Past tense                  ! ഭൂത കാലം 
-%<fut%>         ! Future tense                ! 
+%<pres%>        ! Present tense               ! വര്‍ത്ത്മാന കാലം
+%<past%>        ! Past tense                  ! ഭൂത കാലം
+%<fut%>         ! Future tense                !
 %<perf%>        ! Simple Perfect              !
 %<rem_perf%>    ! Remote Perfect              !
 %<contpres%>    ! Contemporaneous perfect     !
 %<perm%>        ! Permissive mood             !
 %<imp%>         ! Imperative mood             !
-%<hab%>         ! Habitual aspect             ! 
+%<hab%>         ! Habitual aspect             !
 
-%<prec%>         ! Precative mood             ! 
+%<prec%>         ! Precative mood             !
 %<opt%>          ! Optative mood              !
 %<irre%>         ! Irrealis mood              !
-%<satis%>        ! satisfactive mood              !  
-%<monit%>        ! monitory  mood              !    
+%<satis%>        ! satisfactive mood              !
+%<monit%>        ! monitory  mood              !
 
 %<frml%>        ! Formal                      !
 %<infml%>       ! InFormal                    !
 
 %<inf_k%>       ! Infinitive                  !
 %<inf_n%>       ! Purposive infinitive        !
-%<oblig%>       ! Obligative                  ! 
+%<oblig%>       ! Obligative                  !
 %<simul%>       ! Simultaneous                !
 
 %<iter%>        ! Iterative                   !
 %<cond%>        ! Conditional Mood                 !
 
-%<gpr_pres%>    ! 
+%<gpr_pres%>    !
 %<gpr_past%>    !
 
 %<nom%>         ! Nominative                  ! സംബോധന
@@ -72,7 +72,7 @@ Multichar_Symbols
 %<cog%>         !                  !
 
 %<pers%>        ! Personal                    !
-%<itg%>         ! Interrogative               ! 
+%<itg%>         ! Interrogative               !
 %<dem%>         ! Demonstrative               !
 %<ind%>         ! Indefinite                  !
 
@@ -88,7 +88,7 @@ Multichar_Symbols
 %<f%>           ! Feminine                    ! സ്ത്രീലിമ്ഗം
 %<mf%>          ! Masculine/feminine          !
 
-%<pquot%>       ! Quote marker                ! 
+%<pquot%>       ! Quote marker                !
 %<sent%>        ! Sentence boundary           !
 %<cm%>          ! Comma                       !
 %<lpar%>        !
@@ -105,7 +105,7 @@ Multichar_Symbols
 %{z%}           ! Epenthetic consonant        !
 
 %{p%}           !
-   
+
 %+              ! Clitic/compound boundary    !
 %>              ! Morpheme boundary           !
 %»              ! Clitic boundary
@@ -117,28 +117,28 @@ Multichar_Symbols
 LEXICON Root
 
 Miscellaneous ;
-Conjunctions ; 
+Conjunctions ;
 Postpositions ;
 Pronouns ;
 Determiners ;
 Numerals ;
 NominalStems ;
-ProperNouns ; 
+ProperNouns ;
 Adjectives ;
-Adverbs ; 
-Verbs ; 
+Adverbs ;
+Verbs ;
 Punctuation ;
 Interjections;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON CLIT-ITG 
+LEXICON CLIT-ITG
 
-%+ോ%<qst%>:%»%{y%}ോ # ; 
+%+ോ%<qst%>:%»%{y%}ോ # ;
 
 # ;
 
-LEXICON CLIT-QUOT 
+LEXICON CLIT-QUOT
 
 %+എന്ന്%<quot%>:%»െന്ന് CLIT-ITG ; ! Use/Circ
 %+എന്ന്%<quot%>:%»%{y%}െന്ന് CLIT-COP2 ; ! Use/Circ
@@ -147,9 +147,9 @@ CLIT-COP2; ! Use/Circ
 # ;
 
 LEXICON CLIT-COP2
-%+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y%}ുള്ള CLIT-ITG ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y%}ുള്ള CLIT-ITG ; ! "FIXME"
 %+ഉണ്ട്%<vbcop%>%<pres%>%<nom%>:%»%{y%}ുള്ളത് CLIT-QUOT ; ! "FIXME"  !debug Note : with -atu suffix
-%+ഉണ്ട്%<vbcop%>%<pres%>%+യില്ല%<adv%>:%»%{y%}ില്ല CLIT-ITG ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>%+യില്ല%<adv%>:%»%{y%}ില്ല CLIT-ITG ; ! "FIXME"
 %+ഉണ്ട്%<vbcop%>%<pres%>%+യില്ല%<adv%>%<past%>+ആക്%<vbcop%>%<past%>:%»%{y%}ില്ല%>ായിരുന്നു CLIT-QUOT ; ! "FIXME"  ! debug
 
 CLIT-ITG ;
@@ -161,14 +161,14 @@ LEXICON CLIT-CC-SEENCOP
 
 CLIT-QUOT ;
 
-LEXICON CLIT-COP-UNTU 
+LEXICON CLIT-COP-UNTU
 
-%+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y}ുണ്ട് CLIT-QUOT ; ! "FIXME" 
-%+ഉണ്ട്%<vbcop%>%<pres%>%+യില്ല%<adv%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y}ുണ്ട് CLIT-QUOT ; ! "FIXME"
+%+ഉണ്ട്%<vbcop%>%<pres%>%+യില്ല%<adv%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME"
 
 CLIT-QUOT ;
 
-LEXICON CLIT-COP 
+LEXICON CLIT-COP
 
 %+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-QUOT ; ! "FIXME" ! Use/Circ
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു NEG-WHEN-EVEN ;  ! "FIXME" ! Use/Circ
@@ -182,9 +182,9 @@ LEXICON CLIT-COP
 
 CLIT-COP-UNTU ;
 
-# ; 
+# ;
 
-LEXICON CLIT-CC 
+LEXICON CLIT-CC
 
 %+യും%<cnjcoo%>:%»%{z%}ും CLIT-COP ; ! "and, also" ! "FIXME"
 %+യും%<adv%>:%»%{y%}ും CLIT-COP ; ! "also"
@@ -197,19 +197,19 @@ LEXICON CLIT-N
 
 CLIT-CC ;
 
-LEXICON CLIT-POST-EKK 
+LEXICON CLIT-POST-EKK
 
 %+േക്ക്%<post%>:%»േക്ക് CLIT-CC ; ! "to" ! "ēkk"
 
-LEXICON CLIT-POST-EE 
+LEXICON CLIT-POST-EE
 
 %+യേ%<post%>:%»േ CLIT-CC ; ! "only" ! ""
 
-LEXICON CLIT-N-NOM 
+LEXICON CLIT-N-NOM
 
-%+യോടപ്പം%<post%>:%»%{z%}ോടപ്പം CLIT-COP; ! "with" ! "yēāṭappaṁ" 
+%+യോടപ്പം%<post%>:%»%{z%}ോടപ്പം CLIT-COP; ! "with" ! "yēāṭappaṁ"
 %+യോടെ%<post%>:%»%{z%}ോടെ #; ! "with" ! "yēāṭe"
-%+യോളം%<post%>:%»%{z%}ോളം #; ! "upto" ! "yēālam"    
+%+യോളം%<post%>:%»%{z%}ോളം #; ! "upto" ! "yēālam"
 
 CLIT-CC ;
 
@@ -219,15 +219,15 @@ LEXICON CLIT-N-LOC-COMMON
 
 CLIT-POST-EKK ;
 
-CLIT-CC ; 
+CLIT-CC ;
 
 LEXICON CLIT-N-LOC
 
-%<attr%>:%>െ # ; 
+%<attr%>:%>െ # ;
 
 CLIT-N-LOC-COMMON ;
 
-LEXICON CLIT-N-ACC 
+LEXICON CLIT-N-ACC
 
 %+കൊണ്ട്%<post%>:%»കൊണ്ട് CLIT-CC ; ! "with" ! "keāṇṭ"
 %+ക്കാള്‍%<post%>:%»ക്കാള്‍  CLIT-CC ; ! "with" ! "keāṇṭ"
@@ -236,13 +236,13 @@ LEXICON CLIT-N-ACC
 %+യും%<adv%>:%»%{y%}ും CLIT-COP ; ! "also"
 %+യോ%<cnjcoo%>:%»%{z%}ോ #; ! "or" ! "FIXME"
 
-CLIT-CC ; 
+CLIT-CC ;
 
-LEXICON CLIT-N-GEN 
+LEXICON CLIT-N-GEN
 
 %+അടുത്ത്%<post%>:%»അടുത്ത് CLIT-CC ; ! "near" ! "aṭutt"
 
-CLIT-CC ; 
+CLIT-CC ;
 
 LEXICON N-CASES-PL
 
@@ -257,7 +257,7 @@ LEXICON N-CASES-SG
 %<soc%>:%>ോട് CLIT-N ; ! "ēāṭ"
 %<ins%>:%>ാല്‍ CLIT-N ; ! "āl‍"
 
-LEXICON N1 
+LEXICON N1
 
 %<n%>%<sg%>%<nom%>:ം CLIT-N-NOM ; ! "ṁ"
 %<n%>%<sg%>%<loc%>:%>ത്തില്‍ CLIT-N-LOC ; ! "ttil"
@@ -313,7 +313,7 @@ LEXICON N3-COMMON
 
 LEXICON N3
 
-%<n%>: N3-COMMON ; 
+%<n%>: N3-COMMON ;
 
 !plural
 %<n%>%<pl%>%<nom%>:ുകള്‍ CLIT-N-NOM ; ! "ukaḷ‍"
@@ -419,7 +419,7 @@ LEXICON N9-COMMON
 
 LEXICON N9
 
-%<n%>: N9-COMMON ; 
+%<n%>: N9-COMMON ;
 
 !plural
 %<n%>%<pl%>%<nom%>:റുകള്‍ CLIT-N-NOM ; ! "ukaḷ‍"
@@ -429,7 +429,7 @@ LEXICON N9
 
 %<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
 
-LEXICON N10 ! "കാലത്ത്" 
+LEXICON N10 ! "കാലത്ത്"
 
 %<n%>%<sg%>%<nom%>:ം CLIT-N-NOM ; ! "ṁ"
 %<n%>%<sg%>%<loc%>:%>ത്ത് CLIT-N-LOC ; ! "tt"
@@ -676,16 +676,16 @@ LEXICON NP-TOP-BRAZIL
 %<np%>%<top%>%<sg%>%<loc%>:ലില്‍  CLIT-N-LOC ; !""
 %<np%>%<top%>%<sg%>%<soc%>:ലിനോട് CLIT-N-NOM ; !""
 
-LEXICON PRON-PERS-NNAAN 
+LEXICON PRON-PERS-NNAAN
 
 ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<nom%>:ഞാന്‍ CLIT-N-NOM ;
 ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<acc%>:എന്നെ CLIT-N-ACC ;
-ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<gen%>:എന്റെ CLIT-N-GEN ; 
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<gen%>:എന്റെ CLIT-N-GEN ;
 ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<dat%>:എനിക്ക് CLIT-N ;
-ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<dat%>:എന്നുടെ CLIT-N ; 
-ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<ins%>:എന്നാല്‍ CLIT-N ; 
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<dat%>:എന്നുടെ CLIT-N ;
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<ins%>:എന്നാല്‍ CLIT-N ;
 ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<loc%>:എന്നില്‍ CLIT-N-LOC ;
-ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<soc%>:എന്നോട് CLIT-N ; 
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<soc%>:എന്നോട് CLIT-N ;
 
 
 LEXICON PRON-PERS-NII
@@ -701,9 +701,9 @@ LEXICON PRON-PERS-NII
 
 LEXICON PRON-PERS-AVAN
 
-!%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:ന്‍ CLIT-N-NOM ; 
-!%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<gen%>:ന്റെ CLIT-N-GEN ; 
-!%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<acc%>:നെ CLIT-N-ACC ; 
+!%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:ന്‍ CLIT-N-NOM ;
+!%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<gen%>:ന്റെ CLIT-N-GEN ;
+!%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<acc%>:നെ CLIT-N-ACC ;
 
 %<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:്‍ CLIT-N-NOM ; ! ""
 %<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<acc%>:െ CLIT-N-ACC ; ! ""
@@ -716,7 +716,7 @@ LEXICON PRON-PERS-AVAN
 
 LEXICON PRON-PERS-AVAL
 
-!%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>:ള്‍ CLIT-N-NOM ; 
+!%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>:ള്‍ CLIT-N-NOM ;
 !%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:%>ള്‍ക് CLIT-N ; ! "k"
 !%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<gen%>:%>ളുടെ CLIT-N-GEN ; ! "k"
 
@@ -761,9 +761,9 @@ LEXICON PRON-PERS-NINNAL
 
 LEXICON PRON-PERS-AVAR
 
-!%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<nom%>:ര്‍ CLIT-N-NOM ; 
-!%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<gen%>:രുടെ CLIT-N-GEN ; 
-!%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<dat%>:ര്‍ക്ക് CLIT-N ; 
+!%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<nom%>:ര്‍ CLIT-N-NOM ;
+!%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<gen%>:രുടെ CLIT-N-GEN ;
+!%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<dat%>:ര്‍ക്ക് CLIT-N ;
 
 %<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<nom%>:്‍ CLIT-N-NOM ; ! ""
 %<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<acc%>:െ CLIT-N-ACC ; ! ""
@@ -814,84 +814,84 @@ LEXICON PRON-DEM-AT
 %<prn%>%<dem%>%<sg%>%<nom%>:ത് CLIT-N-NOM ;
 %<prn%>%<dem%>%<sg%>%<nom%>:തു CLIT-N-NOM ; ! debug
 %<prn%>%<dem%>%<sg%>%<acc%>:തിനെ CLIT-N-ACC ; ! ""
-%<prn%>%<dem%>%<sg%>%<gen%>:തിന്റെ CLIT-N-GEN ;  
+%<prn%>%<dem%>%<sg%>%<gen%>:തിന്റെ CLIT-N-GEN ;
 %<prn%>%<dem%>%<sg%>%<dat%>:തിന് CLIT-N ; ! ""
 %<prn%>%<dem%>%<sg%>%<dat%>:തിനു CLIT-N ; ! "" ! "debug"
 %<prn%>%<dem%>%<sg%>%<loc%>:തില്‍ CLIT-N-LOC ; ! ""
 %<prn%>%<dem%>%<sg%>%<ins%>:തിനാല്‍ CLIT-N ; ! ""
 %<prn%>%<dem%>%<sg%>%<soc%>:തിനോട് CLIT-N ; ! ""
-%<prn%>%<dem%>%<sg%>%<soc%>:തിനോടു CLIT-N ; ! "" ! 
+%<prn%>%<dem%>%<sg%>%<soc%>:തിനോടു CLIT-N ; ! "" !
 
 %<prn%>%<dem%>%<pl%>%<nom%>:വ CLIT-N-NOM ;
 %<prn%>%<dem%>%<pl%>%<acc%>:വയെ CLIT-N-ACC ; ! ""
-%<prn%>%<dem%>%<pl%>%<gen%>:വയുടെ CLIT-N-GEN ;  
+%<prn%>%<dem%>%<pl%>%<gen%>:വയുടെ CLIT-N-GEN ;
 %<prn%>%<dem%>%<pl%>%<dat%>:വയ്ക്ക് CLIT-N ; ! ""
 %<prn%>%<dem%>%<pl%>%<loc%>:വയില്‍ CLIT-N-LOC ; ! ""
 %<prn%>%<dem%>%<pl%>%<ins%>:വയാല്‍ CLIT-N ; ! ""
 %<prn%>%<dem%>%<pl%>%<soc%>:വയോട് CLIT-N ; ! ""
 
 
-LEXICON PRON-DEM-IT 
+LEXICON PRON-DEM-IT
 
-%<prn%>%<dem%>%<sg%>%<nom%>: CLIT-N-NOM ; 
+%<prn%>%<dem%>%<sg%>%<nom%>: CLIT-N-NOM ;
 
 LEXICON PRON-ITG-ENT
 
 %<prn%>%<itg%>%<sg%>%<nom%>:് CLIT-N-NOM ;
 %<prn%>%<itg%>%<sg%>%<nom%>:ു് CLIT-N-NOM ; ! "debug"
 %<prn%>%<itg%>%<sg%>%<nom%>:ു CLIT-N-NOM ; ! "debug"
-%<prn%>%<itg%>%<sg%>%<dat%>:ിന് CLIT-N-NOM ; 
+%<prn%>%<itg%>%<sg%>%<dat%>:ിന് CLIT-N-NOM ;
 
 LEXICON PRON-IND
 %<prn%>%<ind%>%<sg%>%<nom%>: CLIT-N-NOM ;
 
 LEXICON NUM-ONNU
 
-%<num%>:രു # ; 
-%<num%>%<subst%>:ന്ന്  N2-COMMON ; 
+%<num%>:രു # ;
+%<num%>%<subst%>:ന്ന്  N2-COMMON ;
 
-LEXICON NUM 
+LEXICON NUM
 
-%<num%>:് # ; 
-%<num%>:ു # ; ! "debug" 
-%<num%>%<subst%>:്  N2-COMMON ; 
+%<num%>:് # ;
+%<num%>:ു # ; ! "debug"
+%<num%>%<subst%>:്  N2-COMMON ;
 %<num%>%<ord%>:%>ാം # ;
 %<num%>%<ord%>%<attr%>:%>ാമത്തെ # ;
 
-CLIT-CC ; 
+CLIT-CC ;
 
-LEXICON NUM-ONN-ONPAT 
+LEXICON NUM-ONN-ONPAT
 
-%+ഒരു:ഒ NUM-ONNU ; ! "FIXME" ! "one" 
-%+രണ്ട്:രണ്ട NUM ; ! "FIXME" ! "two" 
+%+ഒരു:ഒ NUM-ONNU ; ! "FIXME" ! "one"
+%+രണ്ട്:രണ്ട NUM ; ! "FIXME" ! "two"
 %+രണ്ട്:രണ്ടു NUM ; ! "FIXME" ! "two"  ! Dir/LR
 %+മൂന്ന്:മൂന്ന NUM ; ! "FIXME" ! "three"
 %+നാല്:നാല NUM ; ! "FIXME" ! "four"
-%+അഞ്ച്:അഞ്ച NUM ; ! "FIXME" ! "five" 
-%+ആറ്:ആറ NUM ; ! "FIXME" ! "six" 
-%+ഏഴ്:ഏഴ NUM ; ! "FIXME" ! "seven" 
+%+അഞ്ച്:അഞ്ച NUM ; ! "FIXME" ! "five"
+%+ആറ്:ആറ NUM ; ! "FIXME" ! "six"
+%+ഏഴ്:ഏഴ NUM ; ! "FIXME" ! "seven"
 %+എട്ട്:എട്ട NUM ; ! "FIXME" ! "eight"
-%+ഒന്‍പത്:ഒന്‍പത NUM ; ! "FIXME" ! "nine" 
+%+ഒന്‍പത്:ഒന്‍പത NUM ; ! "FIXME" ! "nine"
 
-CLIT-CC ; 
+CLIT-CC ;
 
 LEXICON NUM-IRUPAT
 
-%<num%>:് # ; 
-%<num%>:ു # ; ! "debug" 
-%<num%>%<subst%>:്  N2-COMMON ; 
+%<num%>:് # ;
+%<num%>:ു # ; ! "debug"
+%<num%>%<subst%>:്  N2-COMMON ;
 %<num%>%<ord%>:%>ാം # ;
 %<num%>%<ord%>%<attr%>:%>ാമത്തെ # ;
 
-%<num%>%<cmp%>:%>്തി NUM-ONN-ONPAT ; 
+%<num%>%<cmp%>:%>്തി NUM-ONN-ONPAT ;
 
-CLIT-CC ; 
+CLIT-CC ;
 
 LEXICON NEG-WHEN
 
-%+യില്ല%<adv%>:%>ില്ല   # ; ! "illa" 	
+%+യില്ല%<adv%>:%>ില്ല   # ; ! "illa"
 
-!%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%>ില്ല # ; ! "illa" 
+!%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%>ില്ല # ; ! "illa"
 %+അപ്പോള്‍%<cnjadv%>:%»%{p%}പ്പോള്‍ CLIT-CC ;
  CLIT-COP ; !FIXME
 !CLIT-COP;
@@ -900,21 +900,21 @@ LEXICON NEG-WHEN-EVEN
 
 %+എന്നിട്ടും%<adv%>:%»ിട്ടും CLIT-CC ; ! "FIXME"
 
-NEG-WHEN ; 
+NEG-WHEN ;
 
 LEXICON GPR-PRES
 
-%<subst%>:%>ത  N3-COMMON; 
+%<subst%>:%>ത  N3-COMMON;
 # ;
 
-LEXICON GPR-PAST 
+LEXICON GPR-PAST
 
-%<subst%>:%>ത N3-COMMON ; 
+%<subst%>:%>ത N3-COMMON ;
 # ;
 LEXICON PASS-CONT
 %<inf_k%>:%>ടുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ടാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<inf_n%>:%>ടാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" !
 %<pres%>:%>ടുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ട്ടു NEG-WHEN ; ! ""
 %<fut%>:%>ടും NEG-WHEN ; ! ""
@@ -929,17 +929,17 @@ LEXICON PASS-CONT
 %<hab%>:%>ടാര്‍ CLIT-COP-UNTU ; ! "ār"
 %<pcpl%>:%>ട്ട് # ; ! ""
 !
-%<contpres%>:%>ട്ടിക്കുന്നു # ; 
-%<prec%>:%>ടണേ # ; 
-%<opt%>:%>ടട്ടെ # ; 
-%<irre%>%<past%>:%>ട്ടേനെ # ; 
+%<contpres%>:%>ട്ടിക്കുന്നു # ;
+%<prec%>:%>ടണേ # ;
+%<opt%>:%>ടട്ടെ # ;
+%<irre%>%<past%>:%>ട്ടേനെ # ;
 %<cond%>:%>ട്ടാല്‍  NEG-WHEN ; ! "ccāl‍"
 %<monit%>%<fut%>:%>ടുമേ # ;
 %<satis%>%<fut%>:%>ടുമല്ലൊ #;
 %<satis%>%<pres%>:%>ടുന്നല്ലൊ #;
 %<satis%>%<past%>:%>ച്ചല്ലൊ #;
-%<oblig%>:%>ടണം # ; 
-%<itg%>:%>ടുമോ # ; 
+%<oblig%>:%>ടണം # ;
+%<itg%>:%>ടുമോ # ;
 LEXICON CONT_IMP
 ് # ; !""
 %<frml%>:%>ണം # ; !""
@@ -1283,7 +1283,7 @@ LEXICON V-COMMON-ENNI
 %<inf_n%>:%>ാന്‍ # ; ! "̔̔ān‍" !
 %<perf%>:%>ിയിരുന്നു CLIT-ITG ;
 %<rem_perf%>:%>ിട്ടുണ്ട് # ; ! "'
-%<pres%>:%>ുന്നു # ; ! "̔̔unnu" 
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ി # ; ! "i"
 %<fut%>:%>ും NEG-WHEN ; ! ""
 %<pass%>:%>പ്പെ  PASS-CONT ;
@@ -3042,126 +3042,126 @@ LEXICON V-COMMON-VIRALUKA
 !%<pp%>:%>ണ്ട് # ; ! ""
 
 LEXICON V-TV-VERUKKUKA
-%<v%>%<tv%>: V-COMMON-VERUKKUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-VERUKKUKA  ; ! ""
 
 LEXICON V-IV-NOVUKA
-%<v%>%<iv%>: V-COMMON-NOVUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-NOVUKA  ; ! ""
 
 LEXICON V-IV-KARAYUKA
 %<v%>%<iv%>: V-COMMON-KARAYUKA  ; ! ""
 
- 
+
 LEXICON V-TV-KOLLUKA
-%<v%>%<tv%>: V-COMMON-KOLLUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-KOLLUKA  ; ! ""
 
 LEXICON V-TV-ALANNU
-%<v%>%<tv%>: V-COMMON‌-ALANNU  ; ! "" 
+%<v%>%<tv%>: V-COMMON‌-ALANNU  ; ! ""
 
 
 LEXICON V-TV-THARUKA
-%<v%>%<tv%>: V-COMMON-THARUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-THARUKA  ; ! ""
 
 
 LEXICON V-TV-VILKUKA
-%<v%>%<tv%>: V-COMMON-VILKUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-VILKUKA  ; ! ""
 
 
 LEXICON V-IV-VEENU
-%<v%>%<iv%>: V-COMMON-VEENU  ; ! "" 
+%<v%>%<iv%>: V-COMMON-VEENU  ; ! ""
 
 
 LEXICON V-IV-VIRALUKA
-%<v%>%<iv%>: V-COMMON-VIRALUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-VIRALUKA  ; ! ""
 
 LEXICON V-TV-NILKUKA
-%<v%>%<tv%>: V-COMMON-NILKUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-NILKUKA  ; ! ""
 
 
 LEXICON V-IV-THAZHUKA
-%<v%>%<iv%>: V-COMMON-THAZHUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-THAZHUKA  ; ! ""
 
 LEXICON V-TV-PERUKA
-%<v%>%<tv%>: V-COMMON-PERUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-PERUKA  ; ! ""
 
 
 LEXICON V-TV-ATIKKUKA
-%<v%>%<tv%>: V-COMMON-ATIKKUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-ATIKKUKA  ; ! ""
 
 
-LEXICON V-IV-VEIKUKA 
-%<v%>%<iv%>: V-COMMON-VEIKUKA  ; ! "" 
+LEXICON V-IV-VEIKUKA
+%<v%>%<iv%>: V-COMMON-VEIKUKA  ; ! ""
 
 
 LEXICON V-TV-PATUKA
-%<v%>%<tv%>: V-COMMON-PATUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-PATUKA  ; ! ""
 
 
 LEXICON V-IV-CHAKUKA
-%<v%>%<iv%>: V-COMMON-CHAKUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-CHAKUKA  ; ! ""
 
 
 LEXICON V-TV-THOTUKA
-%<v%>%<tv%>: V-COMMON-THOTUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-THOTUKA  ; ! ""
 
 LEXICON V-TV-NERUKA
-%<v%>%<tv%>: V-COMMON-NERUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-NERUKA  ; ! ""
 
 LEXICON V-TV-PILARKUKA
-%<v%>%<tv%>: V-COMMON-PILARKUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-PILARKUKA  ; ! ""
 
 LEXICON V-TV-UZHUTHUKA
-%<v%>%<tv%>: V-COMMON-UZHUTHUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-UZHUTHUKA  ; ! ""
 
 LEXICON V-TV-EALKUKA
-%<v%>%<tv%>: V-COMMON-EALKUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-EALKUKA  ; ! ""
 
 LEXICON V-TV-NIKAZHUKA
-%<v%>%<tv%>: V-COMMON-NIKAZHUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-NIKAZHUKA  ; ! ""
 
 LEXICON V-TV-KAKKUKA
-%<v%>%<tv%>: V-COMMON-KAKKUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-KAKKUKA  ; ! ""
 
 
 LEXICON V-IV-THEERUKA
-%<v%>%<iv%>: V-COMMON-THEERUKA ; ! "" 
-  
+%<v%>%<iv%>: V-COMMON-THEERUKA ; ! ""
+
 LEXICON V-TV-THINNUKA
-%<v%>%<tv%>: V-COMMON-THINNUKA ; ! "" 
+%<v%>%<tv%>: V-COMMON-THINNUKA ; ! ""
 
-LEXICON V-TV-KITTUKA 
-%<v%>%<tv%>: V-COMMON-KITTUKA ; ! "" 
+LEXICON V-TV-KITTUKA
+%<v%>%<tv%>: V-COMMON-KITTUKA ; ! ""
 
-LEXICON V-IV-VARUKA 
-%<v%>%<iv%>: V-COMMON-VARUKA; ! "" 
+LEXICON V-IV-VARUKA
+%<v%>%<iv%>: V-COMMON-VARUKA; ! ""
 
 LEXICON V-IV-IRUNNU
-%<v%>%<iv%>: V-COMMON-IRUNNU ; ! "" 
+%<v%>%<iv%>: V-COMMON-IRUNNU ; ! ""
 
-LEXICON V-TV-CHEYYUKA 
-%<v%>%<tv%>: V-COMMON-CHEYYUKA ; ! "" 
+LEXICON V-TV-CHEYYUKA
+%<v%>%<tv%>: V-COMMON-CHEYYUKA ; ! ""
 
 LEXICON V-TV-ISHTAPETUKA
-%<v%>%<tv%>: V-COMMON-ISHTAPETUKA ; ! "" 
+%<v%>%<tv%>: V-COMMON-ISHTAPETUKA ; ! ""
 
 LEXICON V-IV-URANGUKA
-%<v%>%<iv%>: V-COMMON-URANGUKA ; ! "" 
+%<v%>%<iv%>: V-COMMON-URANGUKA ; ! ""
 
-LEXICON V-IV-POKUKA 
-%<v%>%<iv%>: V-COMMON-POKUKA ; ! "" 
+LEXICON V-IV-POKUKA
+%<v%>%<iv%>: V-COMMON-POKUKA ; ! ""
 
 LEXICON V-IV-NADAKKUKA
-%<v%>%<iv%>: V-COMMON-NADAKKUKA ; ! "" 
+%<v%>%<iv%>: V-COMMON-NADAKKUKA ; ! ""
 
 LEXICON V-TV-KANDETHUKA
-%<v%>%<tv%>: V-COMMON-KANDETHUKA ; ! "" 
+%<v%>%<tv%>: V-COMMON-KANDETHUKA ; ! ""
 
 LEXICON V-TV-KELKKUKA
-%<v%>%<tv%>: V-COMMON-KELKKUKA ; ! "" 
- 
-LEXICON V-TV-NOKKUKA 
+%<v%>%<tv%>: V-COMMON-KELKKUKA ; ! ""
+
+LEXICON V-TV-NOKKUKA
 %<v%>%<tv%>: V-COMMON-NOKKUKA ; ! ""
 
-LEXICON V-TV-LABHIKKUKA 
+LEXICON V-TV-LABHIKKUKA
 %<v%>%<tv%>: V-COMMON-LABHIKKUKA ; ! ""
 
 LEXICON V-TV-ENNI
@@ -3180,126 +3180,126 @@ LEXICON V-TV-KANUKA
 %<v%>%<tv%>: V-COMMON-KANU ; ! ""
 !reverse
 LEXICON V-IV-VERUKKUKA
-%<v%>%<iv%>: V-COMMON-VERUKKUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-VERUKKUKA  ; ! ""
 
 LEXICON V-TV-NOVUKA
-%<v%>%<tv%>: V-COMMON-NOVUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-NOVUKA  ; ! ""
 
 LEXICON V-TV-KARAYUKA
 %<v%>%<tv%>: V-COMMON-KARAYUKA  ; ! ""
 
- 
+
 LEXICON V-IV-KOLLUKA
-%<v%>%<iv%>: V-COMMON-KOLLUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-KOLLUKA  ; ! ""
 
 LEXICON V-IV-ALANNU
-%<v%>%<iv%>: V-COMMON‌-ALANNU  ; ! "" 
+%<v%>%<iv%>: V-COMMON‌-ALANNU  ; ! ""
 
 
 LEXICON V-IV-THARUKA
-%<v%>%<iv%>: V-COMMON-THARUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-THARUKA  ; ! ""
 
 
 LEXICON V-IV-VILKUKA
-%<v%>%<iv%>: V-COMMON-VILKUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-VILKUKA  ; ! ""
 
 
 LEXICON V-TV-VEENU
-%<v%>%<tv%>: V-COMMON-VEENU  ; ! "" 
+%<v%>%<tv%>: V-COMMON-VEENU  ; ! ""
 
 
 LEXICON V-TV-VIRALUKA
-%<v%>%<tv%>: V-COMMON-VIRALUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-VIRALUKA  ; ! ""
 
 LEXICON V-IV-NILKUKA
-%<v%>%<iv%>: V-COMMON-NILKUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-NILKUKA  ; ! ""
 
 
 LEXICON V-TV-THAZHUKA
-%<v%>%<tv%>: V-COMMON-THAZHUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-THAZHUKA  ; ! ""
 
 LEXICON V-IV-PERUKA
-%<v%>%<iv%>: V-COMMON-PERUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-PERUKA  ; ! ""
 
 
 LEXICON V-IV-ATIKKUKA
-%<v%>%<iv%>: V-COMMON-ATIKKUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-ATIKKUKA  ; ! ""
 
 
-LEXICON V-TV-VEIKUKA 
-%<v%>%<tv%>: V-COMMON-VEIKUKA  ; ! "" 
+LEXICON V-TV-VEIKUKA
+%<v%>%<tv%>: V-COMMON-VEIKUKA  ; ! ""
 
 
 LEXICON V-IV-PATUKA
-%<v%>%<iv%>: V-COMMON-PATUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-PATUKA  ; ! ""
 
 
 LEXICON V-TV-CHAKUKA
-%<v%>%<tv%>: V-COMMON-CHAKUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-CHAKUKA  ; ! ""
 
 
 LEXICON V-IV-THOTUKA
-%<v%>%<iv%>: V-COMMON-THOTUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-THOTUKA  ; ! ""
 
 LEXICON V-IV-NERUKA
-%<v%>%<iv%>: V-COMMON-NERUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-NERUKA  ; ! ""
 
 LEXICON V-IV-PILARKUKA
-%<v%>%<iv%>: V-COMMON-PILARKUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-PILARKUKA  ; ! ""
 
 LEXICON V-IV-UZHUTHUKA
-%<v%>%<iv%>: V-COMMON-UZHUTHUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-UZHUTHUKA  ; ! ""
 
 LEXICON V-IV-EALKUKA
-%<v%>%<iv%>: V-COMMON-EALKUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-EALKUKA  ; ! ""
 
 LEXICON V-IV-NIKAZHUKA
-%<v%>%<iv%>: V-COMMON-NIKAZHUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-NIKAZHUKA  ; ! ""
 
 LEXICON V-IV-KAKKUKA
-%<v%>%<iv%>: V-COMMON-KAKKUKA  ; ! "" 
+%<v%>%<iv%>: V-COMMON-KAKKUKA  ; ! ""
 
 
 LEXICON V-TV-THEERUKA
-%<v%>%<tv%>: V-COMMON-THEERUKA ; ! "" 
-  
+%<v%>%<tv%>: V-COMMON-THEERUKA ; ! ""
+
 LEXICON V-IV-THINNUKA
-%<v%>%<iv%>: V-COMMON-THINNUKA ; ! "" 
+%<v%>%<iv%>: V-COMMON-THINNUKA ; ! ""
 
-LEXICON V-IV-KITTUKA 
-%<v%>%<iv%>: V-COMMON-KITTUKA ; ! "" 
+LEXICON V-IV-KITTUKA
+%<v%>%<iv%>: V-COMMON-KITTUKA ; ! ""
 
-LEXICON V-TV-VARUKA 
-%<v%>%<tv%>: V-COMMON-VARUKA; ! "" 
+LEXICON V-TV-VARUKA
+%<v%>%<tv%>: V-COMMON-VARUKA; ! ""
 
 LEXICON V-TV-IRUNNU
-%<v%>%<tv%>: V-COMMON-IRUNNU ; ! "" 
+%<v%>%<tv%>: V-COMMON-IRUNNU ; ! ""
 
-LEXICON V-IV-CHEYYUKA 
-%<v%>%<iv%>: V-COMMON-CHEYYUKA ; ! "" 
+LEXICON V-IV-CHEYYUKA
+%<v%>%<iv%>: V-COMMON-CHEYYUKA ; ! ""
 
 LEXICON V-IV-ISHTAPETUKA
-%<v%>%<iv%>: V-COMMON-ISHTAPETUKA ; ! "" 
+%<v%>%<iv%>: V-COMMON-ISHTAPETUKA ; ! ""
 
 LEXICON V-TV-URANGUKA
-%<v%>%<tv%>: V-COMMON-URANGUKA ; ! "" 
+%<v%>%<tv%>: V-COMMON-URANGUKA ; ! ""
 
-LEXICON V-TV-POKUKA 
-%<v%>%<tv%>: V-COMMON-POKUKA ; ! "" 
+LEXICON V-TV-POKUKA
+%<v%>%<tv%>: V-COMMON-POKUKA ; ! ""
 
 LEXICON V-TV-NADAKKUKA
-%<v%>%<tv%>: V-COMMON-NADAKKUKA ; ! "" 
+%<v%>%<tv%>: V-COMMON-NADAKKUKA ; ! ""
 
 LEXICON V-IV-KANDETHUKA
-%<v%>%<iv%>: V-COMMON-KANDETHUKA ; ! "" 
+%<v%>%<iv%>: V-COMMON-KANDETHUKA ; ! ""
 
 LEXICON V-IV-KELKKUKA
-%<v%>%<iv%>: V-COMMON-KELKKUKA ; ! "" 
- 
-LEXICON V-IV-NOKKUKA 
+%<v%>%<iv%>: V-COMMON-KELKKUKA ; ! ""
+
+LEXICON V-IV-NOKKUKA
 %<v%>%<iv%>: V-COMMON-NOKKUKA ; ! ""
 
-LEXICON V-IV-LABHIKKUKA 
+LEXICON V-IV-LABHIKKUKA
 %<v%>%<iv%>: V-COMMON-LABHIKKUKA ; ! ""
 
 LEXICON V-IV-ENNI
@@ -3332,13 +3332,13 @@ LEXICON VBCOP-AAK
 ആക്%<vbcop%>%<past%>:ആയി CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<past%>:ആയും CLIT-ITG ; ! "FIXME" !debug !TODO adverb
 ആക്%<vbcop%>%<past%>:ആയിട്ടും CLIT-ITG ; ! "FIXME"
-ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:അല്ല CLIT-ITG ; ! "FIXME" 
-ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
+ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:അല്ല CLIT-ITG ; ! "FIXME"
+ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:ഇല്ല CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<fut%>:ആയിരിക്കുമോ CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<past%>:ആയിരുന്നു NEG-WHEN-EVEN ; ! "FIXME"
 !ആക്%<vbcop%>%<past%>:   NEG-WHEN-EVEN ; ! "FIXME"
 
-LEXICON VBCOP-UNTU 
+LEXICON VBCOP-UNTU
 
 %<vbcop%>%<pres%>:ണ്ട് CLIT-ITG ; ! "ṇṭ"
 %<vbcop%>%<past%>:ണ്ടായിരുന്നു CLIT-ITG ; ! "ṇṭ"
@@ -3347,7 +3347,7 @@ LEXICON DET-DEM
 
 %<det%>%<dem%>: # ;
 
-LEXICON A1 
+LEXICON A1
 
 %<adj%>: # ;
 %<adj%>%<subst%>%<m%>%<sg%>:%>വന്‍  N3-COMMON;
@@ -3374,29 +3374,29 @@ LEXICON A4
 
 LEXICON ADV
 
-%<adv%>: CLIT-COP ; 
+%<adv%>: CLIT-COP ;
 
 LEXICON ADV2
 
-%<adv%>: CLIT-CC ; 
+%<adv%>: CLIT-CC ;
 
-LEXICON ADV3 
+LEXICON ADV3
 
-%<adv%>: CLIT-N-LOC-COMMON ; 
+%<adv%>: CLIT-N-LOC-COMMON ;
 
 LEXICON ADV4
 
-%<adv%>: # ; 
+%<adv%>: # ;
 
 LEXICON PREADV
 
-%<preadv%>: # ; 
+%<preadv%>: # ;
 
 LEXICON ADV-ITG
 
-%<adv%>%<itg%>: CLIT-COP ; 
+%<adv%>%<itg%>: CLIT-COP ;
 %<adv%>%<itg%>: CLIT-POST-EKK ;
- 
+
 LEXICON SPOST
 
 %<spost%>: CLIT-CC ;
@@ -3410,9 +3410,9 @@ LEXICON SPOST-LOC
 
 %<spost%>: CLIT-N-LOC ;
 
-LEXICON CC 
+LEXICON CC
 
-%<cnjcoo%>: # ; 
+%<cnjcoo%>: # ;
 
 LEXICON INTERJ
 %<ij%>: # ;
@@ -3424,37 +3424,37 @@ LEXICON INTERJ-ILLA
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON Miscellaneous 
+LEXICON Miscellaneous
 
 എന്ന്%<quot%>:െന്നു # ; ! "ennu" ! ""
 എന്ന്%<quot%>:എന്ന് CLIT-COP; ! "enn" ! "" ! Dir/LR
 എന്ന്%<quot%>:എന്നു # ; ! "ennu" ! "" ! Dir/LR !debug
-എന്ന%<enum%>:എന്ന # ; ! "enna" ! "" 
+എന്ന%<enum%>:എന്ന # ; ! "enna" ! ""
 
-എന്നീ%<enum%>:എന്നീ # ; ! "ennee" ! "" 
+എന്നീ%<enum%>:എന്നീ # ; ! "ennee" ! ""
 മുതലായ%<enum%>:മുതലായ # ;
 തുടങ്ങിയ%<enum%>:തുടങ്ങിയ # ;
 ഇത്യാദി%<enum%>:ഇത്യാദി # ;
 
-LEXICON Conjunctions 
+LEXICON Conjunctions
 
 പക്ഷെ:പക്ഷെ CC ; ! "pakṣe" ! "but"
 പക്ഷേ:പക്ഷേ CC ; ! "" ! "but"
 എങ്കിലും:എങ്കിലും CC ; ! "" ! "but"
 അല്ലെങ്കില്‍:അല്ലെങ്കില്‍ CC ;! "" ! ""
-LEXICON Postpositions 
+LEXICON Postpositions
 
 നിന്ന്:നിന്ന് SPOST ; ! "nīnn" ! "from"
 കൊണ്ട്:കൊണ്ട് SPOST ; ! "keāṇṭ" ! "with"
 കൊണ്ട്:കൊണ്ടു SPOST ; ! "FIXME" ! "with" !Dir/LR
-!താഴെ:താഴെ SPOST ; ! "tāḻe" ! "under" 
+!താഴെ:താഴെ SPOST ; ! "tāḻe" ! "under"
 !കൂടെ:കൂടെ SPOST ; ! "FIXME" ! "with"
 
 തമ്മില്:തമ്മില് SPOST ; ! "between"
 
 !മുന്നില്‍:മുന്നില്‍ SPOST-LOC ; ! "munnil" ! "in front"
 മുമ്പില്‍:മുമ്പില്‍ SPOST-LOC ; ! "mumpil" ! "in front"
-!അടുത്ത്:അടുത്ത് SPOST-LOC ; ! "aṭutt" ! "near" 
+!അടുത്ത്:അടുത്ത് SPOST-LOC ; ! "aṭutt" ! "near"
 !അകത്ത്:അകത്ത് SPOST-LOC ; ! "FIXME" ! "inside"
 !പുറത്ത്:പുറത്ത് SPOST-LOC ; ! "FIXME" ! "outside"
 !കൂടാതെ:കൂടാതെ SPOST; ! "apart from"
@@ -3535,16 +3535,16 @@ PRON-PERS-NNAAN ; ! "ñān" ! "I"
 
 എന്തെങ്കിലും:എന്തെങ്കിലും PRON-IND ; ! "FIXME" ! "anything"
 ഏതെങ്കിലും:ഏതെങ്കിലും PRON-IND ; ! "FIXME" ! "anything"
-ഒന്നും:ഒന്നും PRON-IND ; ! "onnuṁ" ! "anything" 
-അദ്ദേഹം:അദ്ദേഹ PRON-PERS-ADDEHA ; ! "addēhaṁ" ! "he" 
-ഇദ്ദേഹം:ഇദ്ദേഹ PRON-PERS-ADDEHA ; ! "iddēhaṁ" ! "this person" 
+ഒന്നും:ഒന്നും PRON-IND ; ! "onnuṁ" ! "anything"
+അദ്ദേഹം:അദ്ദേഹ PRON-PERS-ADDEHA ; ! "addēhaṁ" ! "he"
+ഇദ്ദേഹം:ഇദ്ദേഹ PRON-PERS-ADDEHA ; ! "iddēhaṁ" ! "this person"
 
-താന്‍:ത PRON-REF-THAN; ! "" ! 
+താന്‍:ത PRON-REF-THAN; ! "" !
 
 LEXICON Determiners
 
 ആ:ആ DET-DEM ; ! "ā" ! "that"
-ഈ:ഈ DET-DEM ; ! "ī" ! "this" 
+ഈ:ഈ DET-DEM ; ! "ī" ! "this"
 മറ്റ്:മറ്റ് DET-DEM ; ! "" ! "other"
 മറ്റ്:മറ്റു DET-DEM ; ! "" ! "other" !debug
 ഓരോ:ഓരോ DET-DEM ; ! "" ! "each" ! "distributive det"
@@ -3553,21 +3553,21 @@ LEXICON Determiners
 ഇതേ:ഇതേ DET-DEM ;
 LEXICON Numerals
 
-ഒരു:ഒ NUM-ONNU ; ! "FIXME" ! "one" 
-ഒന്ന്:ഒന്ന NUM ; ! "FIXME" ! "two" 
-രണ്ട്:രണ്ട NUM ; ! "FIXME" ! "two" 
+ഒരു:ഒ NUM-ONNU ; ! "FIXME" ! "one"
+ഒന്ന്:ഒന്ന NUM ; ! "FIXME" ! "two"
+രണ്ട്:രണ്ട NUM ; ! "FIXME" ! "two"
 രണ്ട്:രണ്ടു NUM ; ! "FIXME" ! "two"  ! Dir/LR
 മൂന്ന്:മൂന്ന NUM ; ! "FIXME" ! "three"
 നാല്:നാല NUM ; ! "FIXME" ! "four"
-അഞ്ച്:അഞ്ച NUM ; ! "FIXME" ! "five" 
-ആറ്:ആറ NUM ; ! "FIXME" ! "six" 
-ഏഴ്:ഏഴ NUM ; ! "FIXME" ! "seven" 
+അഞ്ച്:അഞ്ച NUM ; ! "FIXME" ! "five"
+ആറ്:ആറ NUM ; ! "FIXME" ! "six"
+ഏഴ്:ഏഴ NUM ; ! "FIXME" ! "seven"
 എട്ട്:എട്ട NUM ; ! "FIXME" ! "eight"
-ഒന്‍പത്:ഒന്‍പത NUM ; ! "FIXME" ! "nine" 
+ഒന്‍പത്:ഒന്‍പത NUM ; ! "FIXME" ! "nine"
 പത്ത്:പത്ത NUM ; ! "FIXME" ! "ten"
 പതിനൊന്ന്:പതിനൊന്ന NUM ; ! ""
 പന്ത്രണ്ട്:പന്ത്രണ്ട NUM ; ! ""
-പതിമൂന്ന്:പതിമൂന്ന NUM ; ! "" 
+പതിമൂന്ന്:പതിമൂന്ന NUM ; ! ""
 പതിനാല്:പതിനാല NUM ; ! ""
 പതിനഞ്ച്:പതിനഞ്ച NUM ; ! ""
 പതിനാറ്:പതിനാറ NUM ; ! ""
@@ -3609,7 +3609,7 @@ LEXICON NominalStems
 ജയില്‍:ജയില N3 ; ! "" ! "jayil"
 നോബല്‍:നോബല N3 ; ! "" ! "nobel"
 നോബെല്‍:നോബെല N3 ; ! "" ! "nobel"
-നോവല്‍:നോവല N3 ; 
+നോവല്‍:നോവല N3 ;
 മരം:മര N1 ; ! "maraṁ" ! "tree"
 മണ്ഡലം:മണ്ഡല N1;
 അധിവര്‍ഷം:അധിവര്‍ഷ N1 ; ! ""
@@ -3662,25 +3662,25 @@ LEXICON NominalStems
 തല:തല N2 ; ! "tala" ! "head"
 വര്‍ണരാജി:വര്‍ണരാജി N2 ; ! "' ! ""
 വെള്ളം:വെള്ള N1 ; ! "veḷḷaṁ" ! "water"
-ജനം:ജന N1 ; ! "FIXME" ! "people" 
+ജനം:ജന N1 ; ! "FIXME" ! "people"
 ഉത്തരം:ഉത്തര N1 ; ! "FIXME" ! "answer"
-നേരം:നേര N1 ; ! "FIXME" ! "time" 
+നേരം:നേര N1 ; ! "FIXME" ! "time"
 മറുപടി:മറുപടി N2 ; ! "FIXME" ! "replay"
-ശബ്ദം:ശബ്ദ N1 ; ! "FIXME" ! "sound" 
+ശബ്ദം:ശബ്ദ N1 ; ! "FIXME" ! "sound"
 പട്ടണം:പട്ടണ N1 ; ! "FIXME" ! "city"
 ചോദ്യം:ചോദ്യ N1 ; ! "FIXME" ! "question"
 ഇന്ന്:ഇന്ന N3 ; ! "FIXME" ! "today"
-ഇന്നലെ:ഇന്നലെ N2 ; ! "FIXME" ! "yesterday" 
-ഇഷ്ടം:ഇഷ്ട N1 ; ! "FIXME" ! "happiness" 
-സന്തോഷം:സന്തോഷ N1 ; ! "FIXME" ! "happiness" 
-തണുപ്പ്:തണുപ്പ N3 ; ! "FIXME" ! "coldness" 
-പേര്‍:പേര N6 ; ! "per" ! "" ! "" 
-നാഡി:നാഡി N2 ; ! "FIXME" ! "nerve" 
-വൃക്ക:വൃക്ക N2 ; ! "FIXME" ! "kidney" 
-ഫലകം:ഫലക N1 ; ! "FIXME" ! "" 
-ഈച്ച:ഈച്ച N2 ; ! "FIXME" ! "" 
-രേഖ:രേഖ N2 ; ! "FIXME" ! "line" 
-പൌര്‍ണമി:പൌര്‍ണമി N2 ; ! "FIXME" !"" 
+ഇന്നലെ:ഇന്നലെ N2 ; ! "FIXME" ! "yesterday"
+ഇഷ്ടം:ഇഷ്ട N1 ; ! "FIXME" ! "happiness"
+സന്തോഷം:സന്തോഷ N1 ; ! "FIXME" ! "happiness"
+തണുപ്പ്:തണുപ്പ N3 ; ! "FIXME" ! "coldness"
+പേര്‍:പേര N6 ; ! "per" ! "" ! ""
+നാഡി:നാഡി N2 ; ! "FIXME" ! "nerve"
+വൃക്ക:വൃക്ക N2 ; ! "FIXME" ! "kidney"
+ഫലകം:ഫലക N1 ; ! "FIXME" ! ""
+ഈച്ച:ഈച്ച N2 ; ! "FIXME" ! ""
+രേഖ:രേഖ N2 ; ! "FIXME" ! "line"
+പൌര്‍ണമി:പൌര്‍ണമി N2 ; ! "FIXME" !""
 കഠാര:കഠാര N2 ; ! "FIXME" ! "dagger"
 ഓല:ഓല N2 ; ! "FIXME" ! ""
 ഐതിഹ്യം:ഐതിഹ്യ N1 ; ! "FIXME" ! "legend, tradition"
@@ -5132,7 +5132,7 @@ LEXICON NominalStems
 വ്യയം:വ്യയ N1 ; ! "vyayaṁ" ! "expenditure, consumption"
 വൈരൂപ്യം:വൈരൂപ്യ N1 ; ! "vairūpyaṁ" ! "ugliness, malformation, deformity"
 വൃന്ദം:വൃന്ദ N1 ; ! "vr̥ndaṁ" ! "troop, cluster"
-രോഗം:രോഗ N1 ; ! "" ! "disease" 
+രോഗം:രോഗ N1 ; ! "" ! "disease"
 വിഹാരം:വിഹാര N1 ; ! "vihāraṁ" ! "recreation, monastery"
 ലോഭം:ലോഭ N1 ; ! "lēābhaṁ" ! "greed"
 രംഗപ്രവേശനം:രംഗപ്രവേശന N1 ; ! "raṅgapravēśanaṁ" ! "entry"
@@ -18361,7 +18361,7 @@ LEXICON NominalStems
 ഭര്‍ത്താവ്:ഭര്‍ത്താവ N3 ; ! "" ! "husband"
 ക്രിക്കറ്റ്:ക്രിക്കറ്റ N3 ; ! "" ! "cricket"
 കാറ്റ്:കാറ്റ N3 ; ! "" ! "cricket"
-താലൂക്ക്:താലൂക്ക N3 ; ! "" 
+താലൂക്ക്:താലൂക്ക N3 ; ! ""
 പോലീസ്:പോലീസ N3; ! "" ! "police"
 മാര്‍ച്ച്:മാര്‍ച്ച N3 ; ! "' !"march"
 പൂവ്:പൂവ N3; ! "' ! "flower"
@@ -19527,7 +19527,7 @@ LEXICON NominalStems
 ചതി:ചതി N2 ; ! "cati" ! "treachery, trap, swindle, decoy, deception, deceit"
 ഗോവണി:ഗോവണി N2 ; ! "gēāvaṇi" ! "staircase"
 വട്ടി:വട്ടി N2 ; ! "vaṭṭi" ! "basket"
-നബി:നബി N2 ; ! "" ! 
+നബി:നബി N2 ; ! "" !
 ഭരണരീതി:ഭരണരീതി N2 ; ! "bharaṇarīti" ! "form"
 ബേക്കറി:ബേക്കറി N2 ; ! "bēkkaṟi" ! "bakery"
 നാളി:നാളി N2 ; ! "nāḷi" ! "jet"
@@ -20246,7 +20246,7 @@ LEXICON NominalStems
 ഖണ്ഡിക:ഖണ്ഡിക N2 ; ! "khaṇḍika" ! "item"
 കപ്പേള:കപ്പേള N2 ; ! "kappēḷa" ! "chapel"
 ഏകാഗ്രത:ഏകാഗ്രത N2 ; ! "ēkāgrata" ! "concentration, attention, absorption"
-സംബോധന:സംബോധന N2; ! "" 
+സംബോധന:സംബോധന N2; ! ""
 അഭിസംബോധന:അഭിസംബോധന N2 ; ! ""
 പൊതുസഭ:പൊതുസഭ N2; ! ""
 ഭാരതരത്ന:ഭാരതരത്ന N2; ! ""
@@ -24795,7 +24795,7 @@ LEXICON NominalStems
 സ്ഥാപകന്‍:സ്ഥാപക N8; ! "" ! ""
 മനുഷ്യന്‍:മനുഷ്യ N8; ! "" ! ""
 
-LEXICON ProperNouns 
+LEXICON ProperNouns
 
 ജെയിംസ്:ജെയിംസ NP1 ; ! "jeyins" ! "James"
 തോമസ്:തോമസ NP1 ; ! "" ! "thomas"
@@ -24836,7 +24836,7 @@ LEXICON ProperNouns
 ദക്ഷിണാഫ്രിക്ക:ദക്ഷിണാഫ്രിക്ക NP-TOP-INDIA ; ! "dakṣiṇāphrikka" ! "South Africa"
 ആഫ്രിക്ക:ആഫ്രിക്ക NP-TOP-INDIA ; ! "āphrikka" ! "Africa"
 ചൈന:ചൈന NP-TOP-INDIA ; ! "caina" ! "China"
-ആലപ്പുഴ:ആലപ്പുഴ NP-TOP-INDIA ; ! "ālappuḻa" ! "Alappuzha"  
+ആലപ്പുഴ:ആലപ്പുഴ NP-TOP-INDIA ; ! "ālappuḻa" ! "Alappuzha"
 അമേരിക്ക:അമേരിക്ക NP-TOP-INDIA ; ! "amērikka" ! "America"
 തലശ്ശേരി:തലശ്ശേരി NP-TOP-INDIA ; ! "talaśśēri" ! "Thalassery"
 മദ്രാസ്:മദ്രാസ NP-TOP-CALICUT ; ! "madrās" ! "Madras"
@@ -24907,26 +24907,26 @@ LEXICON ProperNouns
 ഇന്ത്യ:ഇന്ത്യ  NP-TOP-INDIA ; ! "intya" ! "India"
 ഇന്തോനേഷ്യ:ഇന്തോനേഷ്യ NP-TOP-INDIA; ! "intēānēṣya" ! "Indonesia"
 കെനിയ:കെനിയ NP-TOP-INDIA; ! "keniya" ! "Kenya"
-ഡെമൊക്രാറ്റിക് പീപ്പള്സ് റിപ്പബ്ലിക്ക് ഓഫ് കൊറിയ:ഡെമൊക്രാറ്റിക് പീപ്പള്സ് റിപ്പബ്ലിക്ക് ഓഫ് കൊറിയ NP-TOP-INDIA; ! "ḍemeākrāṟṟik pīppaḷs ṟippablikk ōph keāṟiya" ! "Democratic People's Republic of Korea"
-റിപ്പബ്ലിക്ക് ഓഫ് കൊറിയ:റിപ്പബ്ലിക്ക് ഓഫ് കൊറിയ NP-TOP-INDIA; ! "ṟippablikk ōph keāṟiya" ! "Republic of Korea"
+ഡെമൊക്രാറ്റിക്% പീപ്പള്സ്% റിപ്പബ്ലിക്ക്% ഓഫ്% കൊറിയ:ഡെമൊക്രാറ്റിക്% പീപ്പള്സ്% റിപ്പബ്ലിക്ക്% ഓഫ്% കൊറിയ NP-TOP-INDIA; ! "ḍemeākrāṟṟik pīppaḷs ṟippablikk ōph keāṟiya" ! "Democratic People's Republic of Korea"
+റിപ്പബ്ലിക്ക്% ഓഫ്% കൊറിയ:റിപ്പബ്ലിക്ക്% ഓഫ്% കൊറിയ NP-TOP-INDIA; ! "ṟippablikk ōph keāṟiya" ! "Republic of Korea"
 ലാത്‌വിയ:ലാത്‌വിയ NP-TOP-INDIA; ! "lāt‌viya" ! "Latvia"
 ലൈബീരിയ:ലൈബീരിയ NP-TOP-INDIA; ! "laibīriya" ! "Liberia"
 ലിത്വാനിയ:ലിത്വാനിയ NP-TOP-INDIA; ! "litvāniya" ! "Lithuania"
-റിപ്പബ്ലിക് ഓഫ് നോർത് മാസിഡോണിയ:റിപ്പബ്ലിക് ഓഫ് നോർത് മാസിഡോണിയ NP-TOP-INDIA; ! "ṟippablik ōph nēāർt māsiḍēāṇiya" ! "Republic of North Macedonia"
+റിപ്പബ്ലിക്% ഓഫ്% നോർത്% മാസിഡോണിയ:റിപ്പബ്ലിക്% ഓഫ്% നോർത്% മാസിഡോണിയ NP-TOP-INDIA; ! "ṟippablik ōph nēāർt māsiḍēāṇiya" ! "Republic of North Macedonia"
 മൗറിത്താനിയ:മൗറിത്താനിയ NP-TOP-INDIA; ! "maṟittāniya" ! "Mauritania"
 മൈക്രോനേഷ്യ:മൈക്രോനേഷ്യ NP-TOP-INDIA; ! "maikrēānēṣya" ! "Micronesia"
 മംഗോളിയ:മംഗോളിയ NP-TOP-INDIA; ! "maṅgēāḷiya" ! "Mongolia"
 നമീബിയ:നമീബിയ NP-TOP-INDIA; ! "namībiya" ! "Namibia"
 നൈജീരിയ:നൈജീരിയ NP-TOP-INDIA; ! "naijīriya" ! "Nigeria"
-പാപുവ ന്യൂ ഗിനിയ:പാപുവ ന്യൂ ഗിനിയ NP-TOP-INDIA; ! "pāpuva n'yū giniya" ! "Papua New Guinea"
+പാപുവ% ന്യൂ% ഗിനിയ:പാപുവ% ന്യൂ% ഗിനിയ NP-TOP-INDIA; ! "pāpuva n'yū giniya" ! "Papua New Guinea"
 റൊമാനിയ:റൊമാനിയ NP-TOP-INDIA; ! "ṟomāniya" ! "Romania"
-സെയിന്റ് ലൂസിയ:സെയിന്റ് ലൂസിയ NP-TOP-INDIA; ! "seyinṟ lūsiya" ! "Saint Lucia"
-സൗദി അറേബ്യ:സൗദി അറേബ്യ NP-TOP-INDIA; ! "sadi aṟēbya" ! "Saudi Arabia"
+സെയിന്റ്% ലൂസിയ:സെയിന്റ്% ലൂസിയ NP-TOP-INDIA; ! "seyinṟ lūsiya" ! "Saint Lucia"
+സൗദി% അറേബ്യ:സൗദി% അറേബ്യ NP-TOP-INDIA; ! "sadi aṟēbya" ! "Saudi Arabia"
 സെര്‍ബിയ:സെര്‍ബിയ NP-TOP-INDIA; ! "serbiya" ! "Serbia"
 സ്ലോവാക്യ:സ്ലോവാക്യ NP-TOP-INDIA; ! "slēāvākya" ! "Slovakia"
 സ്ലൊവീന്യ:സ്ലൊവീന്യ NP-TOP-INDIA; ! "sleāvīn'ya" ! "Slovenia"
 സൊമാലിയ:സൊമാലിയ NP-TOP-INDIA; ! "seāmāliya" ! "Somalia"
-യുനൈറ്റഡ് റിപ്പബ്ലിക്ക് ഓഫ് ടാന്‍സാനിയ:യുനൈറ്റഡ് റിപ്പബ്ലിക്ക് ഓഫ് ടാന്‍സാനിയ NP-TOP-INDIA; ! "yunaiṟṟaḍ ṟippablikk ōph ṭān‍sāniya" ! "United Republic of Tanzania"
+യുനൈറ്റഡ്% റിപ്പബ്ലിക്ക്% ഓഫ്% ടാന്‍സാനിയ:യുനൈറ്റഡ്% റിപ്പബ്ലിക്ക്% ഓഫ്% ടാന്‍സാനിയ NP-TOP-INDIA; ! "yunaiṟṟaḍ ṟippablikk ōph ṭān‍sāniya" ! "United Republic of Tanzania"
 ടുണീഷ്യ:ടുണീഷ്യ NP-TOP-INDIA; ! "ṭuṇīṣya" ! "Tunisia"
 സാംബിയ:സാംബിയ NP-TOP-INDIA; ! "sāṁbiya" ! "Zambia"
 ബൊളീവിയ:ബൊളീവിയ NP-TOP-INDIA; ! "beāḷīviya" ! "Bolivia"
@@ -24940,12 +24940,12 @@ LEXICON ProperNouns
 ബര്‍ബാഡോസ്:ബര്‍ബാഡോസ NP-TOP-CALICUT; ! "bar‍bāḍēās" ! "Barbados"
 ബെലാറുസ്:ബെലാറുസ NP-TOP-CALICUT; ! "belāṟus" ! "Belarus"
 ബെലീസ്:ബെലീസ NP-TOP-CALICUT; ! "belīs" ! "Beliș"
-കേപ്പ് വേര്‍ഡ്:കേപ്പ് വേര്‍ഡ NP-TOP-CALICUT; ! "kēpp vēr‍ḍ" ! "Cape Verde"
+കേപ്പ്% വേര്‍ഡ്:കേപ്പ്% വേര്‍ഡ NP-TOP-CALICUT; ! "kēpp vēr‍ḍ" ! "Cape Verde"
 ഛാഡ്:ഛാഡ NP-TOP-CALICUT; ! "chāḍ" ! "Chad"
 കൊമോറസ്:കൊമോറസ NP-TOP-CALICUT; ! "keāmēāṟas" ! "Comoros"
 സൈപ്രസ്:സൈപ്രസ NP-TOP-CALICUT; ! "saipras" ! "Cyprus"
 ഡെന്മാര്‍ക്ക്:ഡെന്മാര്‍ക്ക NP-TOP-CALICUT; ! "ḍenmār‍kk" ! "Denmark"
-ഡൊമനിക്കന്‍ റിപ്പബ്ലിക്:ഡൊമനിക്കന്‍ റിപ്പബ്ലിക NP-TOP-CALICUT; ! "ḍeāmanikkan‍ ṟippablik" ! "Dominican Republic"
+ഡൊമനിക്കന്‍% റിപ്പബ്ലിക്:ഡൊമനിക്കന്‍% റിപ്പബ്ലിക് NP-TOP-CALICUT; ! "ḍeāmanikkan‍ ṟippablik" ! "Dominican Republic"
 ഈജിപ്ത്:ഈജിപ്ത NP-TOP-CALICUT; ! "ījipt" ! "Egypt"
 ഫിന്‍ലാന്റ്:ഫിന്‍ലാന്റ NP-TOP-CALICUT; ! "phin‍lānṟ" ! "Finland"
 ഫ്രാന്‍സ്:ഫ്രാന്‍സ NP-TOP-CALICUT; ! "phrān‍s" ! "France"
@@ -24956,26 +24956,26 @@ LEXICON ProperNouns
 അയര്‍ലണ്ട്:അയര്‍ലണ്ട NP-TOP-CALICUT; ! "ayar‍laṇṭ" ! "Ireland"
 കിരീബാസ്:കിരീബാസ NP-TOP-CALICUT; ! "kirībās" ! "Kiribati"
 ലക്സംബര്‍ഗ്:ലക്സംബര്‍ഗ NP-TOP-CALICUT; ! "laksambar‍g" ! "Luxembourg"
-മാര്‍ഷല്‍ ഐലന്റ്സ്:മാര്‍ഷല്‍ ഐലന്റ്സ NP-TOP-CALICUT; ! "mār‍ṣal‍ ailanṟs" ! "Marshall Islands"
+മാര്‍ഷല്‍% ഐലന്റ്സ്:മാര്‍ഷല്‍% ഐലന്റ്സ NP-TOP-CALICUT; ! "mār‍ṣal‍ ailanṟs" ! "Marshall Islands"
 മൗറീഷ്യസ്:മൗറീഷ്യസ NP-TOP-CALICUT; ! "maṟīṣyas" ! "Mauritius"
 മൊസാംബിക്:മൊസാംബിക NP-TOP-CALICUT; ! "meāsāmbik" ! "Mozambique"
 നെതര്‍ലാന്റ്സ്:നെതര്‍ലാന്റ്സ NP-TOP-CALICUT; ! "netar‍lānṟs" ! "Netherlands"
 ന്യൂസിലാന്റ്:ന്യൂസിലാന്റ NP-TOP-CALICUT; ! "n'yūsilānṟ" ! "New Zealand"
 പോളണ്ട്:പോളണ്ട NP-TOP-CALICUT; ! "pēāḷaṇṭ" ! "Poland"
-സൈന്റ് വിന്‍സന്റ് ആന്‍ഡ് ദി ഗ്രെനേഡൈന്‍സ്:സൈന്റ് വിന്‍സന്റ് ആന്‍ഡ് ദി ഗ്രെനേഡൈന്‍സ NP-TOP-CALICUT; ! "sainṟ vin‍sanṟ ān‍ḍ di grenēḍain‍s" ! "Saint Vincent and the Grenadines"
+സൈന്റ്% വിന്‍സന്റ്% ആന്‍ഡ്% ദി% ഗ്രെനേഡൈന്‍സ്:സൈന്റ്% വിന്‍സന്റ്% ആന്‍ഡ്% ദി% ഗ്രെനേഡൈന്‍സ NP-TOP-CALICUT; ! "sainṟ vin‍sanṟ ān‍ḍ di grenēḍain‍s" ! "Saint Vincent and the Grenadines"
 സെയ്ഷെല്‍സ്:സെയ്ഷെല്‍സ NP-TOP-CALICUT; ! "seyṣel‍s" ! "Seychelles"
-സോളമന്‍ ഐലന്റ്സ്:സോളമന്‍ ഐലന്റ്സ NP-TOP-CALICUT; ! "sēāḷaman‍ ailanṟs" ! "Solomon Islands"
+സോളമന്‍% ഐലന്റ്സ്:സോളമന്‍% ഐലന്റ്സ് NP-TOP-CALICUT; ! "sēāḷaman‍ ailanṟs" ! "Solomon Islands"
 സ്വാസിലാന്റ്:സ്വാസിലാന്റ NP-TOP-CALICUT; ! "svāsilānṟ" ! "Swaziland"
 സ്വിറ്റ്സര്‍ലാന്റ്:സ്വിറ്റ്സര്‍ലാന്റ NP-TOP-CALICUT; ! "sviṟṟsar‍lānṟ" ! "Switzerland"
-സിറിയന്‍ അറബ് റിപ്പബ്ലിക്ക്:സിറിയന്‍ അറബ് റിപ്പബ്ലിക്ക NP-TOP-CALICUT; ! "siṟiyan‍ aṟab ṟippablikk" ! "Syrian Arab Republic"
-യുനൈറ്റഡ് അറബ് എമിറേറ്റ്സ്:യുനൈറ്റഡ് അറബ് എമിറേറ്റ്സ NP-TOP-CALICUT; ! "yunaiṟṟaḍ aṟab emiṟēṟṟs" ! "United Arab Emirates"
-യുനൈറ്റഡ് കിംഗ്ഡം ഓഫ് ഗ്രേറ്റ് ബ്രിട്ടന്‍ ആന്‍ഡ് നോര്‍തേൺ അയര്‍ലന്റ്:യുനൈറ്റഡ് കിംഗ്ഡം ഓഫ് ഗ്രേറ്റ് ബ്രിട്ടന്‍ ആന്‍ഡ് നോര്‍തേൺ അയര്‍ലന്റ NP-TOP-CALICUT; ! "yunaiṟṟaḍ kiṅgḍaṁ ōph grēṟṟ briṭṭan‍ ān‍ḍ nēār‍tēn ayar‍lanṟ" ! "United Kingdom of Great Britain and Northern Ireland"
-സെന്‍ട്രല്‍ ആഫ്രിക്കന്‍ റിപ്പബ്ലിക്ക്:സെന്‍ട്രല്‍ ആഫ്രിക്കന്‍ റിപ്പബ്ലിക്ക NP-TOP-CALICUT; ! "sen‍ṭral‍ āphrikkan‍ ṟippablikk" ! "Central African Republic"
-ഡെമോക്രാറ്റിക് റിപ്പബ്ലിക് ഓഫ് കോംഗോ:ഡെമോക്രാറ്റിക് റിപ്പബ്ലിക് ഓഫ കോംഗോ NP-TOP-CALICUT; ! "ḍemēākrāṟṟik ṟippablik ōph kēāṅgēā" ! "Democratic Republic of Congo"
-ലാവോ പീപ്പിള്‍സ് ഡെമോക്രാറ്റിക് റിപ്പബ്ലിക്ക്:ലാവോ പീപ്പിള്‍സ് ഡെമോക്രാറ്റിക് റിപ്പബ്ലിക്ക NP-TOP-CALICUT; ! "lāvēā pīppiḷ‍s ḍemēākrāṟṟik ṟippablikk" ! "Lao People's Democratic Republic"
+സിറിയന്‍% അറബ്% റിപ്പബ്ലിക്ക്:സിറിയന്‍% അറബ്% റിപ്പബ്ലിക്ക് NP-TOP-CALICUT; ! "siṟiyan‍ aṟab ṟippablikk" ! "Syrian Arab Republic"
+യുനൈറ്റഡ്% അറബ്% എമിറേറ്റ്സ്:യുനൈറ്റഡ്% അറബ്% എമിറേറ്റ്സ് NP-TOP-CALICUT; ! "yunaiṟṟaḍ aṟab emiṟēṟṟs" ! "United Arab Emirates"
+യുനൈറ്റഡ്% കിംഗ്ഡം% ഓഫ്% ഗ്രേറ്റ്% ബ്രിട്ടന്‍% ആന്‍ഡ്% നോര്‍തേൺ% അയര്‍ലന്റ്:യുനൈറ്റഡ്% കിംഗ്ഡം% ഓഫ്% ഗ്രേറ്റ്% ബ്രിട്ടന്‍% ആന്‍ഡ്% നോര്‍തേൺ% അയര്‍ലന്റ് NP-TOP-CALICUT; ! "yunaiṟṟaḍ kiṅgḍaṁ ōph grēṟṟ briṭṭan‍ ān‍ḍ nēār‍tēn ayar‍lanṟ" ! "United Kingdom of Great Britain and Northern Ireland"
+സെന്‍ട്രല്‍% ആഫ്രിക്കന്‍% റിപ്പബ്ലിക്ക്:സെന്‍ട്രല്‍% ആഫ്രിക്കന്‍% റിപ്പബ്ലിക്ക് NP-TOP-CALICUT; ! "sen‍ṭral‍ āphrikkan‍ ṟippablikk" ! "Central African Republic"
+ഡെമോക്രാറ്റിക്% റിപ്പബ്ലിക്ക്% ഓഫ്% കോംഗോ:ഡെമോക്രാറ്റിക്% റിപ്പബ്ലിക്ക്% ഓഫ്% കോംഗോ NP-TOP-CALICUT; ! "ḍemēākrāṟṟik ṟippablik ōph kēāṅgēā" ! "Democratic Republic of Congo"
+ലാവോ% പീപ്പിള്‍സ്% ഡെമോക്രാറ്റിക്% റിപ്പബ്ലിക്ക്:ലാവോ% പീപ്പിള്‍സ്% ഡെമോക്രാറ്റിക്% റിപ്പബ്ലിക്ക് NP-TOP-CALICUT; ! "lāvēā pīppiḷ‍s ḍemēākrāṟṟik ṟippablikk" ! "Lao People's Democratic Republic"
 മാല്‍ഡീവ്സ്:മാല്‍ഡീവ്സ NP-TOP-CALICUT; ! "māl‍ḍīvs" ! "Maldives"
 ഫിലിപ്പീന്‍സ്:ഫിലിപ്പീന്‍സ NP-TOP-CALICUT; ! "philippīn‍s" ! "Philippines"
-സെന്റ് കീറ്റ്സ് ആന്റ് നെവിസ്:സെന്റ് കീറ്റ്സ് ആന്റ് നെവിസ NP-TOP-CALICUT; ! "senṟ kīṟṟs ānṟ nevis" ! "Saint Kitts and Nevis"
+സെന്റ്% കീറ്റ്സ്% ആന്റ്% നെവിസ്:സെന്റ്% കീറ്റ്സ്% ആന്റ്% നെവിസ NP-TOP-CALICUT; ! "senṟ kīṟṟs ānṟ nevis" ! "Saint Kitts and Nevis"
 തായ്‌ലാന്റ്:തായ്‌ലാന്റ NP-TOP-CALICUT; ! "tāy‌lānṟ" ! "Thailand"
 
 ബെല്‍ജിയം:ബെല്‍ജിയ NP-TOP-KERALA; ! "bel‍jiyaṁ" ! "Belgium"
@@ -24986,7 +24986,7 @@ LEXICON ProperNouns
 ബറുണ്ടി:ബറുണ്ടി NP-TOP-INDIA; ! "baṟuṇṭi" ! "Burundi"
 ചിലി:ചിലി NP-TOP-INDIA; ! "cili" ! "Chile"
 ജിബൂട്ടി:ജിബൂട്ടി NP-TOP-INDIA; ! "jibūṭṭi" ! "Djibouti"
-ഇക്വറ്റോറിയല്‍ ഗിനി:ഇക്വറ്റോറിയല്‍ ഗിനി NP-TOP-INDIA; ! "ikvaṟṟēāṟiyal‍ gini" ! "Equatorial Guinea"
+ഇക്വറ്റോറിയല്‍% ഗിനി:ഇക്വറ്റോറിയല്‍% ഗിനി NP-TOP-INDIA; ! "ikvaṟṟēāṟiyal‍ gini" ! "Equatorial Guinea"
 ഫിജി:ഫിജി NP-TOP-INDIA; ! "phiji" ! "Fiji"
 ജര്‍മ്മനി:ജര്‍മ്മനി NP-TOP-INDIA; ! "jar‍m'mani" ! "Germany"
 ഗിനി:ഗിനി NP-TOP-INDIA; ! "gini" ! "Guinea"
@@ -25363,7 +25363,7 @@ LEXICON ProperNouns
 
 
 
-LEXICON Adjectives 
+LEXICON Adjectives
 
 ചെറിയ:ചെറിയ A1 ; ! "ceṟiya" ! "small"
 പ്രമുഖ:പ്രമുഖ A1; ! "' ! "importnat"
@@ -25416,7 +25416,7 @@ LEXICON Adjectives
 
 LEXICON Adverbs
 
-എവിടെ:എവിടെ ADV-ITG ; ! "eviṭe" ! "where" 
+എവിടെ:എവിടെ ADV-ITG ; ! "eviṭe" ! "where"
 എന്തുകൊണ്ട്:എന്തുകൊണ്ട് ADV-ITG ; ! "" FIXME ! "why"
 !എന്ത്:എന്ത് ADV-ITG;
 !എങ്ങിനെ:എങ്ങിനെ ;
@@ -25440,7 +25440,7 @@ LEXICON Adverbs
 മെല്ലെ:മെല്ലെ ADV ; ! "melle" ! "slowly"
 പതുക്കെ:പതുക്കെ ADV; ! "pathukke" ! "slowly"
 പെട്ടെന്ന്:പെട്ടെന്ന്  ADV ; ! "peṭṭenn" ! "suddenly"
-ഇപ്പോഴും:ഇപ്പോഴും ADV ; ! "FIXME" ! "still" 
+ഇപ്പോഴും:ഇപ്പോഴും ADV ; ! "FIXME" ! "still"
 ഇപ്പോള്‍:ഇപ്പോള്‍ ADV ; ! "FIXME" ! "now"
 എപ്പോഴും:എപ്പോഴും ADV ; ! "FIXME" ! "always"
 എന്നും:എന്നും ADV ; ! "" ! "always"
@@ -25578,10 +25578,10 @@ VBCOP-AAK ; ! "āk" ! "be"
 വാങ്ങുക:വാങ്ങ  V-IV-URANGUKA ; ! "uṟaṅṅuka" ! "sleep"
 ചുമത്തുക:ചുമത്ത V-IV-URANGUKA ; ! "" ! "'
 മനസ്സിലാക്കുക:മനസ്സിലാക്ക V-TV-URANGUKA ; ! "" ! "'
-എണ്ണുക:എണ്ണ V-TV-ENNI ; ! "eṇṇuka" ! "count" 
+എണ്ണുക:എണ്ണ V-TV-ENNI ; ! "eṇṇuka" ! "count"
 പരതുക:പരത V-TV-ENNI ; ! "paratuka" !  "search"
 കണ്ടെത്തുക:കണ്ടെത്ത  V-TV-KANDETHUKA ; ! "kaṇṭettuka" ! "find"
-ചെയ്യുക:ചെയ V-TV-CHEYYUKA ;! "ceyyuka" ! "do" 
+ചെയ്യുക:ചെയ V-TV-CHEYYUKA ;! "ceyyuka" ! "do"
 പറയുക:പറ V-TV-ARIYUKA ; ! "paṟayuka" ! "tell"
 കഴിയുക:കഴി V-TV-ARIYUKA ; ! "kaḻiyuka" ! "can"
 വരുക:വ V-IV-THARUKA ; ! "varuka" ! "come "
@@ -25617,7 +25617,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 വിരളുക:വിര V-IV-VIRALUKA; ! "viraḷuka" ! "scare"
 ! കാണുക - done
 നില്‍ക്കുക:നി V-TV-NILKUKA ; !"nil‍kkuka" ! "stand"
-താഴുക:താഴ V-IV-THAZHUKA ; ! "tāḻuka" ! "fall down" 
+താഴുക:താഴ V-IV-THAZHUKA ; ! "tāḻuka" ! "fall down"
 പെറുക:പെ V-TV-PERUKA ; ! "peṟuka"
 അടിക്കുക:അടി V-TV-ATIKKUKA ; ! "aṭikkuka" ! "beat"
 പരിശോധിക്കുക:പരിശോധി V-TV-ATIKKUKA ; ! "" ! "inspect"
@@ -25635,7 +25635,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 അന്തരിക്കുക:അന്തരി V-IV-ATIKKUKA ; ! "antarikkuka" ! "die"
 അഭിനയിക്കുക:അഭിനയി V-IV-ATIKKUKA ; ! "" ! "act"
 അടക്കുക:അട V-TV-ATIKKUKA; ! "aṭakkal‍"! "Closing"
-അടക്കുക:അടയ് V-TV-ATIKKUKA; ! "aṭakkal‍"! "Closing" 
+അടക്കുക:അടയ് V-TV-ATIKKUKA; ! "aṭakkal‍"! "Closing"
 ഉപയോഗിക്കുക:ഉപയോഗി V-TV-ATIKKUKA ; ! "upayēāgikkuka" ! "use"
 പുറപ്പെടുവിക്കുക:പുറപ്പെടുവി  V-TV-ATIKKUKA ; ! "" ! "send out"
 കാണിക്കുക:കാണി V-TV-ATIKKUKA; ! ""! "make see"
@@ -25695,7 +25695,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 ഭരിക്കുക:ഭരി V-TV-ATIKKUKA; ! "bharikkuka"! "Conduct"
 മദ്യപിക്കുക:മദ്യപി V-TV-ATIKKUKA; ! "madyapikkuka"! "Drink"
 മരിക്കുക:മരി V-TV-ATIKKUKA; ! "marikkuka"! "Die"
-വിജയിക്കുക:വിജയി V-IV-ATIKKUKA; ! "" ! "win" 
+വിജയിക്കുക:വിജയി V-IV-ATIKKUKA; ! "" ! "win"
 ആദരിക്കുക:ആദരി V-TV-ATIKKUKA; ! "" ! "respect"
 പ്രഖ്യാപിക്കുക:പ്രഖ്യാപി  V-TV-ATIKKUKA; ! "" ! "announce"
 മാറ്റിമറിക്കുക:മാറ്റിമറി V-TV-ATIKKUKA; ! "māṟṟimaṟikkuka"! "Change"
@@ -25974,7 +25974,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 എത്തിച്ചേരുക:എത്തിച്ചേ V-IV-NERUKA ; ! "" ! "arrive"
 ! ഇരിക്കുക -done
 പിളര്‍ക്കുക:പിള V-TV-PILARKUKA ; ! "piḷar‍kkuka" ! "cut"
-ഉഴുതുക:ഉഴ V-TV-UZHUTHUKA ; ! "uḻutuka" ! "" 
+ഉഴുതുക:ഉഴ V-TV-UZHUTHUKA ; ! "uḻutuka" ! ""
 ഏല്ക്കുക:ഏ  V-TV-EALKUKA ; ! "ēlkkuka"
 നികഴുക:നിക V-TV-NIKAZHUKA; ! "nikaḻuka"
 കക്കുക:ക V-TV-KAKKUKA; ! "kakkuka"
@@ -26008,32 +26008,32 @@ VBCOP-AAK ; ! "āk" ! "be"
 ചുറ്റിനടക്കുക:ചുറ്റിനടക്ക V-IV-ENNI; ! cuṟṟinaṭakkuka
 ശ്വാസമെടുക്കുക:ശ്വാസമെടു V-IV-VERUKKUKA; ! śvāsameṭukkuka
 
-അനുഭവപ്പെടുക:അനുഭവപ്പെ V-IV-ISHTAPETUKA; ! anubhavappeṭuka 
+അനുഭവപ്പെടുക:അനുഭവപ്പെ V-IV-ISHTAPETUKA; ! anubhavappeṭuka
 ഇല്ലാതാകുക:ഇല്ലാതാ V-IV-POKUKA; ! illātākuka
 എടുത്തുകാട്ടുക:എടുത്തുകാട്ട V-IV-ENNI; ! eṭuttukāṭṭuka
 എത്തിക്കഴിയുക:എത്തിക്കഴി V-IV-KARAYUKA; ! ettikkaḻiyuka
-എത്തിച്ചുകൊടുക്കുക:എത്തിച്ചുകൊടു V-TV-VERUKKUKA; ! etticcukeāṭukkuka 
-കൊടുക്കുക:കൊടു V-TV-VERUKKUKA; ! keāṭukkuka 
-കഷ്ടപ്പെടുക:കഷ്ടപ്പെ V-IV-ISHTAPETUKA; ! kaṣ‌ṭappeṭuka 
+എത്തിച്ചുകൊടുക്കുക:എത്തിച്ചുകൊടു V-TV-VERUKKUKA; ! etticcukeāṭukkuka
+കൊടുക്കുക:കൊടു V-TV-VERUKKUKA; ! keāṭukkuka
+കഷ്ടപ്പെടുക:കഷ്ടപ്പെ V-IV-ISHTAPETUKA; ! kaṣ‌ṭappeṭuka
 കൊഴിയുക:കൊഴി V-IV-KARAYUKA; ! keāḻiyuka
 ചായുക:ചാ V-IV-KARAYUKA; ! cāyuka
 തിരിച്ചറിയുക:തിരിച്ചറി V-IV-KARAYUKA; ! tiriccaṟiyuka
-തീര്‍ക്കുക:തീര്‍ V-TV-VERUKKUKA; ! tīr‍kkuka 
+തീര്‍ക്കുക:തീര്‍ V-TV-VERUKKUKA; ! tīr‍kkuka
 തെളിയുക:തെളി V-IV-KARAYUKA; ! teḷiyuka
 പണിയുക:പണി V-TV-KARAYUKA; ! paṇiyuka
 പരാധിപ്പെടുക:പരാധിപ്പെ V-IV-ISHTAPETUKA; ! parādhippeṭuka
-പരാധീനപ്പെടുക:പരാധീനപ്പെ V-IV-ISHTAPETUKA; ! parādhīnappeṭuka 
+പരാധീനപ്പെടുക:പരാധീനപ്പെ V-IV-ISHTAPETUKA; ! parādhīnappeṭuka
 പുറത്തെടുക്കുക:പുറത്തെടു V-TV-VERUKKUKA; ! puṟatteṭukkuka
-പൂര്‍ത്തിയാക്കുക:പൂര്‍ത്തിയാക്ക V-TV-ENNI; ! pūr‍ttiyākkuka 
-പ്രസവിക്കുക:പ്രസവി V-IV-ATIKKUKA; ! prasavikkuka 
-ഭാവിക്കുക:ഭാവി V-IV-ATIKKUKA; ! bhāvikkuka 
+പൂര്‍ത്തിയാക്കുക:പൂര്‍ത്തിയാക്ക V-TV-ENNI; ! pūr‍ttiyākkuka
+പ്രസവിക്കുക:പ്രസവി V-IV-ATIKKUKA; ! prasavikkuka
+ഭാവിക്കുക:ഭാവി V-IV-ATIKKUKA; ! bhāvikkuka
 മുഷിയുക:മുഷി V-IV-KARAYUKA; ! muṣiyuka
 രൂപകല്‍പനചെയ്യുക:രൂപകല്‍പനചെയ് V-IV-KARAYUKA; ! rūpakal‍panaceyyuka
 വൃത്തിയാക്കുക:വൃത്തിയാക്ക V-TV-ENNI; ! vr̥ttiyākkuka
 വെളിപ്പെടുക:വെളിപ്പെ V-TV-ISHTAPETUKA; ! veḷippeṭuka
 വേര്‍തിരിച്ചറിയുക:വേര്‍തിരിച്ചറി V-TV-KARAYUKA; ! vēr‍tiriccaṟiyuka
 വ്യക്തമാക്കുക:വ്യക്തമാക്ക V-TV-ENNI; ! vyaktamākkuka
-സമാധിയടയുക:സമാധിയട V-IV-KARAYUKA; ! samādhiyaṭayuka 
+സമാധിയടയുക:സമാധിയട V-IV-KARAYUKA; ! samādhiyaṭayuka
 
 
 LEXICON Interjections
@@ -26044,12 +26044,12 @@ LEXICON Interjections
 
 LEXICON Punctuation
 
-%"%<pquot%>:%" # ; 
+%"%<pquot%>:%" # ;
 %,%<cm%>:%, # ;
 %.%<sent%>:%. # ;
 %!%<sent%>:%! # ;
 %?%<sent%>:%? # ;
-%:%<sent%>:%: # ; 
+%:%<sent%>:%: # ;
 %(%<lpar%>:%( # ;
 %]%<rpar%>:%] # ;
 %[%<lpar%>:%[ # ;
@@ -26063,14 +26063,12 @@ LEXICON Punctuation
 
 LEXICON DIGITLEX-CIPH
 
-DIGITLEX ; 
+DIGITLEX ;
 %<num%>%<loc%>:%ല്  CLIT-N-LOC ;
 %<num%>%<dat%>:%ന് # ;
-%<num%>%<loc%>:% ല്  CLIT-N-LOC ;  
-%<num%>%<loc%>:%-ല്‍  CLIT-N-LOC ;  
+%<num%>%<loc%>:% ല്  CLIT-N-LOC ;
+%<num%>%<loc%>:%-ല്‍  CLIT-N-LOC ;
 
 LEXICON DIGITLEX
 
-%<num%>: # ; 
-
-
+%<num%>: # ;
