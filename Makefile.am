@@ -126,7 +126,9 @@ $(LANG1).zhfst: .deps/acceptor.default.hfst .deps/errmodel.default.hfst
 EXTRA_DIST=$(BASENAME).$(LANG1).lexc \
 	   $(BASENAME).$(LANG1).twol \
 	   $(BASENAME).$(LANG1).rlx \
-	   modes.xml
+	   modes.xml \
+	   tests/clitics.yaml \
+	   tests/run_tests.sh
 
 ###############################################################################
 ## Installation stuff
@@ -163,7 +165,7 @@ install-data-local: install-modes
 ###############################################################################
 
 test: all
-	echo "TODO"
+	./tests/run_tests.sh
 
 ###############################################################################
 ## Cleanup
